@@ -1,0 +1,1306 @@
+{
+  "IncludeOutputSettingsInProfile": false,
+  "UnmuteEffectsAfterSimhubRestart": false,
+  "AutomaticSwitch": false,
+  "Description": "",
+  "EffectsContainers": [
+    {
+      "EffectsContainers": [
+        {
+          "AutocalibrationMin": 50.0,
+          "Filter": {
+            "GammaValue": 1.0,
+            "InputGain": 10.0,
+            "MinimumForce": 0,
+            "Threshold": 100,
+            "FilterType": "GammaFilter"
+          },
+          "IsMuted": false,
+          "ContainerId": "bfd5ef5e-cbe3-4381-ba59-ec00dccf8d79",
+          "ContainerType": "WheelsImpactContainer",
+          "Description": "For dashboard flickers",
+          "AggregationMode": "Mono",
+          "Gain": 100.0,
+          "IsEnabled": true,
+          "Output": {
+            "UsePrehemptiveMode": false,
+            "Frequency": 44,
+            "UseHighFrequency": false,
+            "HighFrequency": 50,
+            "WhiteNoise": 10,
+            "UseWhiteNoise": false,
+            "EnableDurationModulation": true,
+            "DurationModulationValue": 34,
+            "FrequencyBasedOnPreFilter": false,
+            "Harmonics": 0,
+            "HoldMode": 1,
+            "DelayEnabled": false,
+            "AssignToChannelGroup": false,
+            "ChannelGroupName": "DO NOT MAP",
+            "PropertyName": "Road_Impacts",
+            "ExportProperty": true,
+            "DisableOutput": true,
+            "OutputType": "ToneOutput"
+          },
+          "Algorythm": null
+        },
+        {
+          "AutocalibrationMax": 100.0,
+          "UseAutoThreshold": true,
+          "AutoThresholdValue": 50.0,
+          "Filter": {
+            "GammaValue": 1.0,
+            "InputGain": 100.0,
+            "MinimumForce": 0,
+            "Threshold": 0,
+            "FilterType": "GammaFilter"
+          },
+          "IsMuted": false,
+          "ContainerId": "48c3a7cb-3e81-4e3f-9a99-0f9a524ed4e6",
+          "ContainerType": "WheelsVibrationContainer",
+          "Description": "For exclusive Road Vibrations",
+          "AggregationMode": "Corners",
+          "Gain": 100.0,
+          "IsEnabled": true,
+          "Output": {
+            "UsePrehemptiveMode": false,
+            "Frequency": 55,
+            "UseHighFrequency": true,
+            "HighFrequency": 35,
+            "WhiteNoise": 10,
+            "UseWhiteNoise": false,
+            "EnableDurationModulation": false,
+            "DurationModulationValue": 34,
+            "FrequencyBasedOnPreFilter": false,
+            "Harmonics": 0,
+            "HoldMode": 1,
+            "DelayEnabled": false,
+            "AssignToChannelGroup": false,
+            "ChannelGroupName": "DO NOT MAP",
+            "PropertyName": "Road_Vibrations_Corners",
+            "ExportProperty": true,
+            "DisableOutput": true,
+            "OutputType": "ToneOutput"
+          },
+          "Algorythm": null
+        },
+        {
+          "AutocalibrationMin": 50.0,
+          "Filter": {
+            "GammaValue": 1.0,
+            "InputGain": 100.0,
+            "MinimumForce": 0,
+            "Threshold": 0,
+            "FilterType": "GammaFilter"
+          },
+          "IsMuted": false,
+          "ContainerId": "4becf693-6bac-4859-a756-04c448f1dd6b",
+          "ContainerType": "WheelsImpactContainer",
+          "Description": "For exclusive Road Vibrations",
+          "AggregationMode": "Corners",
+          "Gain": 100.0,
+          "IsEnabled": true,
+          "Output": {
+            "UsePrehemptiveMode": false,
+            "Frequency": 44,
+            "UseHighFrequency": false,
+            "HighFrequency": 50,
+            "WhiteNoise": 10,
+            "UseWhiteNoise": false,
+            "EnableDurationModulation": true,
+            "DurationModulationValue": 34,
+            "FrequencyBasedOnPreFilter": false,
+            "Harmonics": 0,
+            "HoldMode": 1,
+            "DelayEnabled": false,
+            "AssignToChannelGroup": false,
+            "ChannelGroupName": "DO NOT MAP",
+            "PropertyName": "Road_Impacts_Corners",
+            "ExportProperty": true,
+            "DisableOutput": true,
+            "OutputType": "ToneOutput"
+          },
+          "Algorythm": null
+        },
+        {
+          "BrakeFilter": 10,
+          "Filter": {
+            "GammaValue": 1.0,
+            "InputGain": 100.0,
+            "MinimumForce": 0,
+            "Threshold": 33,
+            "FilterType": "GammaFilter"
+          },
+          "MuteWhenLockEffectIsActive": false,
+          "ThrottleFilter": 10,
+          "UseBrakeFilter": false,
+          "UseThrottleFilter": false,
+          "IsMuted": false,
+          "ContainerId": "1bda52fe-0afa-446f-b1db-fff622064711",
+          "ContainerType": "WheelsSlipContainer",
+          "Description": "For Wheels slip with upshifts filtered out",
+          "AggregationMode": "Corners",
+          "Gain": 100.0,
+          "IsEnabled": true,
+          "Output": {
+            "UsePrehemptiveMode": false,
+            "Frequency": 40,
+            "UseHighFrequency": true,
+            "HighFrequency": 80,
+            "WhiteNoise": 10,
+            "UseWhiteNoise": false,
+            "EnableDurationModulation": false,
+            "DurationModulationValue": 34,
+            "FrequencyBasedOnPreFilter": false,
+            "Harmonics": 0,
+            "HoldMode": 1,
+            "DelayEnabled": false,
+            "AssignToChannelGroup": false,
+            "ChannelGroupName": "DO NOT MAP",
+            "PropertyName": "Wheel_Slip",
+            "ExportProperty": true,
+            "DisableOutput": true,
+            "OutputType": "ToneOutput"
+          },
+          "Algorythm": null
+        }
+      ],
+      "Filter": null,
+      "IsMuted": false,
+      "ContainerId": "153db8da-b497-4541-93df-484df8cb8433",
+      "ContainerType": "GroupContainer",
+      "Description": "Feeder Effects - Leave enabled",
+      "AggregationMode": null,
+      "Gain": 100.0,
+      "IsEnabled": true,
+      "Output": null,
+      "Algorythm": null
+    },
+    {
+      "EffectsContainers": [
+        {
+          "AutocalibrationMax": 95.0,
+          "Filter": {
+            "GammaValue": 1.0,
+            "InputGain": 100.0,
+            "MinimumForce": 20,
+            "Threshold": 0,
+            "FilterType": "GammaFilter"
+          },
+          "FrontLeftFormula": {
+            "Expression": "if(\r\nmaximum(50,\r\n(isnull([ShakeITBSV3Plugin.Export.Road_Impacts_Corners.FrontLeft],0))>0),\r\n0,\r\nisnull([ShakeITBSV3Plugin.Export.Road_Vibrations_Corners.FrontLeft],0))"
+          },
+          "FrontRightFormula": {
+            "Expression": "if(\r\nmaximum(50,\r\n(isnull([ShakeITBSV3Plugin.Export.Road_Impacts_Corners.FrontRight],0))>0),\r\n0,\r\nisnull([ShakeITBSV3Plugin.Export.Road_Vibrations_Corners.FrontRight],0))\r\n"
+          },
+          "RearLeftFormula": {
+            "Expression": "if(\r\nmaximum(50,\r\n(isnull([ShakeITBSV3Plugin.Export.Road_Impacts_Corners.RearLeft],0))>0),\r\n0,\r\nisnull([ShakeITBSV3Plugin.Export.Road_Vibrations_Corners.RearLeft],0))\r\n"
+          },
+          "RearRightFormula": {
+            "Expression": "if(\r\nmaximum(50,\r\n(isnull([ShakeITBSV3Plugin.Export.Road_Impacts_Corners.RearRight],0))>0),\r\n0,\r\nisnull([ShakeITBSV3Plugin.Export.Road_Vibrations_Corners.RearRight],0))"
+          },
+          "IsMuted": false,
+          "ContainerId": "de5f089d-e365-4c35-b74c-b0388aeab974",
+          "ContainerType": "CustomEffectContainer",
+          "Description": "Road Vibrations - Exclusive (Stops during Road Impacts)",
+          "AggregationMode": "Corners",
+          "Gain": 100.0,
+          "IsEnabled": true,
+          "Output": {
+            "UsePrehemptiveMode": false,
+            "Frequency": 60,
+            "UseHighFrequency": true,
+            "HighFrequency": 45,
+            "WhiteNoise": 1,
+            "UseWhiteNoise": false,
+            "EnableDurationModulation": false,
+            "DurationModulationValue": 100,
+            "FrequencyBasedOnPreFilter": true,
+            "Harmonics": 0,
+            "HoldMode": 1,
+            "DelayEnabled": false,
+            "AssignToChannelGroup": true,
+            "ChannelGroupName": "Custom Road Vibrations",
+            "PropertyName": "Custom_RoadVibration",
+            "ExportProperty": false,
+            "DisableOutput": false,
+            "OutputType": "ToneOutput"
+          },
+          "Algorythm": null
+        },
+        {
+          "AutocalibrationMin": 50.0,
+          "Filter": {
+            "GammaValue": 1.0,
+            "InputGain": 100.0,
+            "MinimumForce": 25,
+            "Threshold": 0,
+            "FilterType": "GammaFilter"
+          },
+          "IsMuted": false,
+          "ContainerId": "ad62a190-25a7-4d64-8d78-0f549afe7e19",
+          "ContainerType": "WheelsImpactContainer",
+          "Description": "Provides localized feedback for bumps and other wheels impact on road",
+          "AggregationMode": "Corners",
+          "Gain": 70.000000000000114,
+          "IsEnabled": true,
+          "Output": {
+            "UsePrehemptiveMode": false,
+            "Frequency": 50,
+            "UseHighFrequency": true,
+            "HighFrequency": 35,
+            "WhiteNoise": 10,
+            "UseWhiteNoise": false,
+            "EnableDurationModulation": false,
+            "DurationModulationValue": 53,
+            "FrequencyBasedOnPreFilter": false,
+            "Harmonics": 0,
+            "HoldMode": 1,
+            "DelayEnabled": false,
+            "AssignToChannelGroup": false,
+            "ChannelGroupName": null,
+            "PropertyName": "",
+            "ExportProperty": false,
+            "DisableOutput": false,
+            "OutputType": "ToneOutput"
+          },
+          "Algorythm": null
+        },
+        {
+          "MaxEffectSpeed": 80.0,
+          "Filter": {
+            "GammaValue": 1.0,
+            "InputGain": 100.0,
+            "MinimumForce": 0,
+            "Threshold": 0,
+            "FilterType": "GammaFilter"
+          },
+          "IsMuted": false,
+          "ContainerId": "ba10a531-e396-4a45-ba32-2bd07e5a3cfb",
+          "ContainerType": "WheelsRumbleContainer",
+          "Description": "Provides localized rumble details for kerbs, grass ...",
+          "AggregationMode": "Corners",
+          "Gain": 50.333333333333826,
+          "IsEnabled": true,
+          "Output": {
+            "UsePrehemptiveMode": false,
+            "Frequency": 55,
+            "UseHighFrequency": true,
+            "HighFrequency": 40,
+            "WhiteNoise": 10,
+            "UseWhiteNoise": false,
+            "EnableDurationModulation": false,
+            "DurationModulationValue": 34,
+            "FrequencyBasedOnPreFilter": false,
+            "Harmonics": 0,
+            "HoldMode": 1,
+            "DelayEnabled": false,
+            "AssignToChannelGroup": false,
+            "ChannelGroupName": null,
+            "PropertyName": null,
+            "ExportProperty": false,
+            "DisableOutput": false,
+            "OutputType": "ToneOutput"
+          },
+          "Algorythm": null
+        }
+      ],
+      "Filter": null,
+      "IsMuted": false,
+      "ToggleMute": {
+        "Trigger": "GraphicalDashPlugin.ShakersRoadMute",
+        "PressType": 4
+      },
+      "IncrementGainAction": {
+        "Trigger": "GraphicalDashPlugin.ShakersRoadIncrease",
+        "PressType": 4
+      },
+      "DecrementGainAction": {
+        "Trigger": "GraphicalDashPlugin.ShakersRoadDecrease",
+        "PressType": 4
+      },
+      "ContainerId": "14c7b1b1-40a4-48ba-b9cc-742ff9a8214c",
+      "ContainerType": "GroupContainer",
+      "Description": "Road",
+      "AggregationMode": null,
+      "Gain": 50.333333333333314,
+      "IsEnabled": true,
+      "Output": null,
+      "Algorythm": null
+    },
+    {
+      "EffectsContainers": [
+        {
+          "AutocalibrationMax": 95.0,
+          "Filter": {
+            "GammaValue": 1.0,
+            "InputGain": 100.0,
+            "MinimumForce": 0,
+            "Threshold": 0,
+            "FilterType": "GammaFilter"
+          },
+          "FrontLeftFormula": {
+            "Expression": "if(\r\nisincreasing(750,\r\nmaximum(200,\r\nif(isnull([DataCorePlugin.GameData.NewData.Gear],0)=='R','-1',\r\nif(isnull([DataCorePlugin.GameData.NewData.Gear],0)=='N','0',\r\nformat(isnull([DataCorePlugin.GameData.NewData.Gear],0),0)))\r\n))\r\n,0\r\n,isnull( [ShakeITBSV3Plugin.Export.Wheel_Slip.FrontLeft], 0)\r\n)\r\n"
+          },
+          "FrontRightFormula": {
+            "Expression": "if(\r\nisincreasing(750,\r\nmaximum(200,\r\nif(isnull([DataCorePlugin.GameData.NewData.Gear],0)=='R','-1',\r\nif(isnull([DataCorePlugin.GameData.NewData.Gear],0)=='N','0',\r\nformat(isnull([DataCorePlugin.GameData.NewData.Gear],0),0)))\r\n))\r\n,0\r\n,isnull( [ShakeITBSV3Plugin.Export.Wheel_Slip.FrontRight], 0)\r\n)\r\n"
+          },
+          "RearLeftFormula": {
+            "Expression": "if(\r\nisincreasing(750,\r\nmaximum(200,\r\nif(isnull([DataCorePlugin.GameData.NewData.Gear],0)=='R','-1',\r\nif(isnull([DataCorePlugin.GameData.NewData.Gear],0)=='N','0',\r\nformat(isnull([DataCorePlugin.GameData.NewData.Gear],0),0)))\r\n))\r\n,0\r\n,isnull( [ShakeITBSV3Plugin.Export.Wheel_Slip.RearLeft], 0)\r\n)\r\n"
+          },
+          "RearRightFormula": {
+            "Expression": "if(\r\nisincreasing(750,\r\nmaximum(200,\r\nif(isnull([DataCorePlugin.GameData.NewData.Gear],0)=='R','-1',\r\nif(isnull([DataCorePlugin.GameData.NewData.Gear],0)=='N','0',\r\nformat(isnull([DataCorePlugin.GameData.NewData.Gear],0),0)))\r\n))\r\n,0\r\n,isnull( [ShakeITBSV3Plugin.Export.Wheel_Slip.RearRight], 0)\r\n)\r\n"
+          },
+          "IsMuted": false,
+          "ContainerId": "6c0fd081-4f95-4f19-953c-a63ababe9cc6",
+          "ContainerType": "CustomEffectContainer",
+          "Description": "Wheels slip with upshifts filtered out",
+          "AggregationMode": "Corners",
+          "Gain": 100.0,
+          "IsEnabled": true,
+          "Output": {
+            "UsePrehemptiveMode": false,
+            "Frequency": 35,
+            "UseHighFrequency": true,
+            "HighFrequency": 65,
+            "WhiteNoise": 10,
+            "UseWhiteNoise": false,
+            "EnableDurationModulation": false,
+            "DurationModulationValue": 34,
+            "FrequencyBasedOnPreFilter": false,
+            "Harmonics": 0,
+            "HoldMode": 1,
+            "DelayEnabled": false,
+            "AssignToChannelGroup": true,
+            "ChannelGroupName": "Wheels Slip Gear Filtered",
+            "PropertyName": "Wheels_Slip_LEDs",
+            "ExportProperty": true,
+            "DisableOutput": false,
+            "OutputType": "ToneOutput"
+          },
+          "Algorythm": null
+        }
+      ],
+      "Filter": null,
+      "IsMuted": false,
+      "ToggleMute": {
+        "Trigger": "GraphicalDashPlugin.ShakersWheelsMute",
+        "PressType": 4
+      },
+      "IncrementGainAction": {
+        "Trigger": "JoystickPlugin.F16_MFD_1_B19",
+        "PressType": 4
+      },
+      "DecrementGainAction": {
+        "Trigger": "JoystickPlugin.F16_MFD_1_B18",
+        "PressType": 4
+      },
+      "ContainerId": "08721fd5-8ee9-4905-a795-2d50aeb8f641",
+      "ContainerType": "GroupContainer",
+      "Description": "Wheels",
+      "AggregationMode": null,
+      "Gain": 50.0,
+      "IsEnabled": true,
+      "Output": null,
+      "Algorythm": null
+    },
+    {
+      "EffectsContainers": [
+        {
+          "Filter": {
+            "GammaValue": 0.50000000000000933,
+            "FilterType": "SimpleGammaFilter"
+          },
+          "LowSpeed": 1,
+          "HighSpeed": 120,
+          "AutoMaxSpeed": true,
+          "MaxSpeedPercent": 100.0,
+          "IsMuted": false,
+          "ContainerId": "d2b01c17-04b4-41b5-8750-15dfc613dbbf",
+          "ContainerType": "SpeedContainer",
+          "Description": "Linear Speed Buzz - Pedals",
+          "AggregationMode": null,
+          "Gain": 25.0,
+          "IsEnabled": true,
+          "Output": {
+            "UsePrehemptiveMode": false,
+            "Frequency": 90,
+            "UseHighFrequency": true,
+            "HighFrequency": 80,
+            "WhiteNoise": 3,
+            "UseWhiteNoise": true,
+            "EnableDurationModulation": false,
+            "DurationModulationValue": 34,
+            "FrequencyBasedOnPreFilter": true,
+            "Harmonics": 0,
+            "HoldMode": 1,
+            "DelayEnabled": false,
+            "AssignToChannelGroup": true,
+            "ChannelGroupName": "Speed Buzz",
+            "PropertyName": null,
+            "ExportProperty": false,
+            "DisableOutput": false,
+            "OutputType": "ToneOutput"
+          },
+          "Algorythm": null
+        },
+        {
+          "Filter": {
+            "GammaValue": 0.24999999999999967,
+            "FilterType": "SimpleGammaFilter"
+          },
+          "LowSpeed": 1,
+          "HighSpeed": 120,
+          "AutoMaxSpeed": true,
+          "MaxSpeedPercent": 100.0,
+          "IsMuted": false,
+          "ContainerId": "680905ef-f10f-45f0-8ed5-0133ccb72eba",
+          "ContainerType": "SpeedContainer",
+          "Description": "High Speed Rumble - Seat",
+          "AggregationMode": null,
+          "Gain": 50.000000000000227,
+          "IsEnabled": true,
+          "Output": {
+            "UsePrehemptiveMode": false,
+            "Frequency": 50,
+            "UseHighFrequency": true,
+            "HighFrequency": 35,
+            "WhiteNoise": 3,
+            "UseWhiteNoise": true,
+            "EnableDurationModulation": false,
+            "DurationModulationValue": 34,
+            "FrequencyBasedOnPreFilter": true,
+            "Harmonics": 0,
+            "HoldMode": 1,
+            "DelayEnabled": false,
+            "AssignToChannelGroup": true,
+            "ChannelGroupName": "Speed Rumble",
+            "PropertyName": null,
+            "ExportProperty": false,
+            "DisableOutput": false,
+            "OutputType": "ToneOutput"
+          },
+          "Algorythm": null
+        }
+      ],
+      "Filter": null,
+      "IsMuted": false,
+      "ToggleMute": {
+        "Trigger": "GraphicalDashPlugin.ShakersSpeedMute",
+        "PressType": 4
+      },
+      "IncrementGainAction": {
+        "Trigger": "JoystickPlugin.F16_MFD_1_B05",
+        "PressType": 4
+      },
+      "DecrementGainAction": {
+        "Trigger": "JoystickPlugin.F16_MFD_1_B06",
+        "PressType": 4
+      },
+      "ContainerId": "9a134cbe-0bf7-47cd-8547-951748e2d9cb",
+      "ContainerType": "GroupContainer",
+      "Description": "Speed",
+      "AggregationMode": null,
+      "Gain": 35.0,
+      "IsEnabled": true,
+      "Output": null,
+      "Algorythm": null
+    },
+    {
+      "EffectsContainers": [
+        {
+          "AutocalibrationMax": 95.0,
+          "Filter": {
+            "GammaValue": 1.0,
+            "InputGain": 100.0,
+            "MinimumForce": 0,
+            "Threshold": 5,
+            "FilterType": "GammaFilter"
+          },
+          "FrontLeftFormula": {
+            "Expression": "(\r\nmax(0,-isnull([DataCorePlugin.GameRawData.Telemetry.LatAccel],0)*2)\r\n+\r\nmax(0,-isnull([DataCorePlugin.GameRawData.Telemetry.LongAccel],0)*2)\r\n)\r\n*2\r\n"
+          },
+          "FrontRightFormula": {
+            "Expression": "(\r\nmax(0,isnull([DataCorePlugin.GameRawData.Telemetry.LatAccel],0)*2)\r\n+\r\nmax(0,-isnull([DataCorePlugin.GameRawData.Telemetry.LongAccel],0)*2)\r\n)\r\n*2\r\n"
+          },
+          "RearLeftFormula": {
+            "Expression": "(\r\nmax(0,-isnull([DataCorePlugin.GameRawData.Telemetry.LatAccel],0)*2)\r\n+\r\nmax(0,isnull([DataCorePlugin.GameRawData.Telemetry.LongAccel],0)*4)\r\n)\r\n*2\r\n"
+          },
+          "RearRightFormula": {
+            "Expression": "(\r\nmax(0,isnull([DataCorePlugin.GameRawData.Telemetry.LatAccel],0)*2)\r\n+\r\nmax(0,isnull([DataCorePlugin.GameRawData.Telemetry.LongAccel],0)*4)\r\n)\r\n*2\r\n"
+          },
+          "IsMuted": false,
+          "ContainerId": "6adc3189-0561-495f-ba98-6cca6d7462f9",
+          "ContainerType": "CustomEffectContainer",
+          "Description": "Corner load (lat and long) iRacing only - 4 Corners",
+          "AggregationMode": "Corners",
+          "Gain": 100.0,
+          "IsEnabled": true,
+          "Output": {
+            "UsePrehemptiveMode": false,
+            "Frequency": 65,
+            "UseHighFrequency": true,
+            "HighFrequency": 40,
+            "WhiteNoise": 2,
+            "UseWhiteNoise": true,
+            "EnableDurationModulation": false,
+            "DurationModulationValue": 34,
+            "FrequencyBasedOnPreFilter": true,
+            "Harmonics": 0,
+            "HoldMode": 1,
+            "DelayEnabled": false,
+            "AssignToChannelGroup": true,
+            "ChannelGroupName": "g Force Corner Load",
+            "PropertyName": null,
+            "ExportProperty": false,
+            "DisableOutput": false,
+            "OutputType": "ToneOutput"
+          },
+          "Algorythm": null
+        }
+      ],
+      "Filter": null,
+      "IsMuted": false,
+      "ToggleMute": {
+        "Trigger": "GraphicalDashPlugin.ShakersGforcesMute",
+        "PressType": 4
+      },
+      "IncrementGainAction": {
+        "Trigger": "JoystickPlugin.F16_MFD_1_B17",
+        "PressType": 4
+      },
+      "DecrementGainAction": {
+        "Trigger": "JoystickPlugin.F16_MFD_1_B16",
+        "PressType": 4
+      },
+      "ContainerId": "4e4d0306-0269-4922-b214-bee1fd5495a1",
+      "ContainerType": "GroupContainer",
+      "Description": "g-Forces",
+      "AggregationMode": null,
+      "Gain": 30.333333333333144,
+      "IsEnabled": true,
+      "Output": null,
+      "Algorythm": null
+    },
+    {
+      "EffectsContainers": [
+        {
+          "Filter": null,
+          "PitchOffset": 20,
+          "CutOff": 180.0,
+          "LoadSensitivity": 25.0,
+          "IsMuted": false,
+          "ContainerId": "b87b5312-e7da-4192-b0fa-0615c5d5bf59",
+          "ContainerType": "RPMSoundEffectContainer",
+          "Description": "Aura - Seat Under",
+          "AggregationMode": null,
+          "Gain": 25.333333333333371,
+          "IsEnabled": true,
+          "Output": {
+            "EngineMode": 1,
+            "UseBank1": true,
+            "UseBank3": false,
+            "AssignToChannelGroup": true,
+            "ChannelGroupName": "Engine Aura",
+            "PropertyName": null,
+            "ExportProperty": false,
+            "DisableOutput": false,
+            "OutputType": "RpmBankOutput"
+          },
+          "Algorythm": null
+        },
+        {
+          "Filter": null,
+          "PitchOffset": -10,
+          "CutOff": 180.0,
+          "LoadSensitivity": 75.0,
+          "IsMuted": false,
+          "ContainerId": "5a095837-516f-46b6-bbdc-9e98232d2927",
+          "ContainerType": "RPMSoundEffectContainer",
+          "Description": "Dayton pucks - Seat back + Shifter + Wheel Back",
+          "AggregationMode": null,
+          "Gain": 100.0,
+          "IsEnabled": true,
+          "Output": {
+            "EngineMode": 3,
+            "UseBank1": false,
+            "UseBank3": true,
+            "AssignToChannelGroup": true,
+            "ChannelGroupName": "Engine Dayton",
+            "PropertyName": null,
+            "ExportProperty": false,
+            "DisableOutput": false,
+            "OutputType": "RpmBankOutput"
+          },
+          "Algorythm": null
+        },
+        {
+          "Filter": {
+            "ControlPoints": [
+              "5;100",
+              "22.7218934911243;100",
+              "50.0591715976331;0",
+              "86;0"
+            ],
+            "CurveFitting": 1,
+            "FilterType": "SplineFilter"
+          },
+          "IsMuted": false,
+          "ContainerId": "7bce365e-a048-491a-a242-1ab3df314940",
+          "ContainerType": "RPMContainer",
+          "Description": "Idle",
+          "AggregationMode": null,
+          "Gain": 24.666666666666742,
+          "IsEnabled": true,
+          "Output": {
+            "UsePrehemptiveMode": false,
+            "Frequency": 1,
+            "UseHighFrequency": true,
+            "HighFrequency": 27,
+            "WhiteNoise": 5,
+            "UseWhiteNoise": true,
+            "EnableDurationModulation": false,
+            "DurationModulationValue": 34,
+            "FrequencyBasedOnPreFilter": false,
+            "Harmonics": 0,
+            "HoldMode": 1,
+            "DelayEnabled": false,
+            "AssignToChannelGroup": true,
+            "ChannelGroupName": "Engine Idle",
+            "PropertyName": null,
+            "ExportProperty": false,
+            "DisableOutput": false,
+            "OutputType": "ToneOutput"
+          },
+          "Algorythm": null
+        },
+        {
+          "AutocalibrationMax": 95.0,
+          "Filter": {
+            "GammaValue": 1.0,
+            "InputGain": 100.0,
+            "MinimumForce": 0,
+            "Threshold": 3,
+            "FilterType": "GammaFilter"
+          },
+          "FrontLeftFormula": {
+            "Expression": "if(\r\n(isnull([DataCorePlugin.GameData.NewData.Rpms],0)\r\n>\r\nif(\r\nisnull([DataCorePlugin.GameRawData.SessionData.DriverInfo.DriverCarIdleRPM],0)*0.7=='0'\r\n,[DataCorePlugin.GameData.NewData.CarSettings_MaxRPM]*0.18\r\n,isnull([DataCorePlugin.GameRawData.SessionData.DriverInfo.DriverCarIdleRPM],0)*0.7))\r\n,0\r\n,\r\n([DataCorePlugin.GameData.NewData.CarSettings_CurrentDisplayedRPMPercent]*6)\r\n*sin(\r\n2\r\n*3.1416\r\n*([DataCorePlugin.GameData.NewData.Rpms]/75))\r\n)"
+          },
+          "FrontRightFormula": {
+            "Expression": ""
+          },
+          "RearLeftFormula": {
+            "Expression": ""
+          },
+          "RearRightFormula": {
+            "Expression": ""
+          },
+          "IsMuted": false,
+          "ContainerId": "1016f00d-2ba5-4fd6-b31a-a4ef89c177e1",
+          "ContainerType": "CustomEffectContainer",
+          "Description": "Engine Start/Stop/Stall",
+          "AggregationMode": "Mono",
+          "Gain": 100.0,
+          "IsEnabled": true,
+          "Output": {
+            "UsePrehemptiveMode": false,
+            "Frequency": 35,
+            "UseHighFrequency": true,
+            "HighFrequency": 65,
+            "WhiteNoise": 10,
+            "UseWhiteNoise": false,
+            "EnableDurationModulation": false,
+            "DurationModulationValue": 34,
+            "FrequencyBasedOnPreFilter": true,
+            "Harmonics": 0,
+            "HoldMode": 1,
+            "DelayEnabled": false,
+            "AssignToChannelGroup": true,
+            "ChannelGroupName": "Engine Start/Stop/Stall",
+            "PropertyName": null,
+            "ExportProperty": false,
+            "DisableOutput": false,
+            "OutputType": "ToneOutput"
+          },
+          "Algorythm": null
+        },
+        {
+          "EffectsContainers": [
+            {
+              "AutocalibrationMax": 95.0,
+              "Filter": {
+                "GammaValue": 1.0,
+                "InputGain": 100.0,
+                "MinimumForce": 0,
+                "Threshold": 0,
+                "FilterType": "GammaFilter"
+              },
+              "FrontLeftFormula": {
+                "Expression": "if(\r\nisnull([DataCorePlugin.CurrentGame],'')=='IRacing'\r\n,if(\r\n([DataCorePlugin.GameRawData.Telemetry.EngineWarnings]&1<<5)!=0\r\n,100,0)\r\n,if([DataCorePlugin.GameData.NewData.CarSettings_CurrentDisplayedRPMPercent]>99,100,0))"
+              },
+              "FrontRightFormula": {
+                "Expression": ""
+              },
+              "RearLeftFormula": {
+                "Expression": ""
+              },
+              "RearRightFormula": {
+                "Expression": ""
+              },
+              "IsMuted": false,
+              "ContainerId": "97d8309e-69d8-44b6-8fe7-5e289e66f838",
+              "ContainerType": "CustomEffectContainer",
+              "Description": "Rev Limiter",
+              "AggregationMode": "Mono",
+              "Gain": 50.0,
+              "IsEnabled": true,
+              "Output": {
+                "UsePrehemptiveMode": false,
+                "Frequency": 38,
+                "UseHighFrequency": false,
+                "HighFrequency": 35,
+                "WhiteNoise": 5,
+                "UseWhiteNoise": true,
+                "EnableDurationModulation": true,
+                "DurationModulationValue": 32,
+                "FrequencyBasedOnPreFilter": false,
+                "Harmonics": 0,
+                "HoldMode": 1,
+                "DelayEnabled": false,
+                "AssignToChannelGroup": true,
+                "ChannelGroupName": "Limiters",
+                "PropertyName": null,
+                "ExportProperty": false,
+                "DisableOutput": false,
+                "OutputType": "ToneOutput"
+              },
+              "Algorythm": null
+            },
+            {
+              "AutocalibrationMax": 95.0,
+              "Filter": {
+                "GammaValue": 1.0,
+                "InputGain": 100.0,
+                "MinimumForce": 0,
+                "Threshold": 0,
+                "FilterType": "GammaFilter"
+              },
+              "FrontLeftFormula": {
+                "Expression": "if(\r\n(\r\nisnull([DataCorePlugin.GameData.NewData.PitLimiterOn],0)\r\nor\r\nisnull([DataCorePlugin.GameRawData.Physics.PitLimiterOn],0)\r\n)\r\nand isnull([DataCorePlugin.GameData.NewData.SpeedKmh],0)>\r\n\r\n2+left(isnull([DataCorePlugin.GameRawData.SessionData.WeekendInfo.TrackPitSpeedLimit],0),0,2)\r\n\r\nand\r\nisincreasing(1,[DataCorePlugin.GameData.NewData.SpeedKmh])==false\r\n,100\r\n,0)\r\n\r\n\r\n\r\n\r\n\r\n"
+              },
+              "FrontRightFormula": {
+                "Expression": ""
+              },
+              "RearLeftFormula": {
+                "Expression": ""
+              },
+              "RearRightFormula": {
+                "Expression": ""
+              },
+              "IsMuted": false,
+              "ContainerId": "aa75845e-7d46-441d-9e34-92c68950e5e6",
+              "ContainerType": "CustomEffectContainer",
+              "Description": "Pit Limiter",
+              "AggregationMode": "Mono",
+              "Gain": 50.333333333333485,
+              "IsEnabled": true,
+              "Output": {
+                "UsePrehemptiveMode": false,
+                "Frequency": 40,
+                "UseHighFrequency": false,
+                "HighFrequency": 40,
+                "WhiteNoise": 15,
+                "UseWhiteNoise": true,
+                "EnableDurationModulation": false,
+                "DurationModulationValue": 34,
+                "FrequencyBasedOnPreFilter": false,
+                "Harmonics": 0,
+                "HoldMode": 1,
+                "DelayEnabled": false,
+                "AssignToChannelGroup": true,
+                "ChannelGroupName": "Limiters",
+                "PropertyName": null,
+                "ExportProperty": false,
+                "DisableOutput": false,
+                "OutputType": "ToneOutput"
+              },
+              "Algorythm": null
+            }
+          ],
+          "Filter": null,
+          "IsMuted": false,
+          "ContainerId": "591eecf4-fae0-4fe6-b72f-efdfe1e5b59b",
+          "ContainerType": "GroupContainer",
+          "Description": "Limiters",
+          "AggregationMode": null,
+          "Gain": 100.0,
+          "IsEnabled": true,
+          "Output": null,
+          "Algorythm": null
+        }
+      ],
+      "Filter": null,
+      "IsMuted": false,
+      "ToggleMute": {
+        "Trigger": "GraphicalDashPlugin.ShakersEngineMute",
+        "PressType": 4
+      },
+      "IncrementGainAction": {
+        "Trigger": "JoystickPlugin.F16_MFD_1_B02",
+        "PressType": 4
+      },
+      "DecrementGainAction": {
+        "Trigger": "JoystickPlugin.F16_MFD_1_B01",
+        "PressType": 4
+      },
+      "ContainerId": "480330e7-3840-4468-af71-b62495377165",
+      "ContainerType": "GroupContainer",
+      "Description": "Engine",
+      "AggregationMode": null,
+      "Gain": 35.0,
+      "IsEnabled": true,
+      "Output": null,
+      "Algorythm": null
+    },
+    {
+      "EffectsContainers": [
+        {
+          "EffectsContainers": [
+            {
+              "EffectsContainers": [
+                {
+                  "AutocalibrationMax": 95.0,
+                  "Filter": {
+                    "GammaValue": 0.49999999999999961,
+                    "InputGain": 100.0,
+                    "MinimumForce": 5,
+                    "Threshold": 0,
+                    "FilterType": "GammaFilter"
+                  },
+                  "FrontLeftFormula": {
+                    "Expression": "if(\r\nisincreasing(80,\r\nmaximum(200,\r\nif(isnull([DataCorePlugin.GameData.NewData.Gear],0)=='R','-1',\r\nif(isnull([DataCorePlugin.GameData.NewData.Gear],0)=='N','0',\r\nformat(isnull([DataCorePlugin.GameData.NewData.Gear],0),0)))\r\n))\r\n,100,0)\r\n\r\n*\r\n((abs(\r\nmaximum(200,\r\nformat(isnull(\r\nif(\r\n[DataCorePlugin.GameData.NewData.GlobalAccelerationG]=='NaN',0,[DataCorePlugin.GameData.NewData.GlobalAccelerationG])\r\n,0),0))\r\n-\r\nminimum(201,\r\nformat(isnull(\r\nif(\r\n[DataCorePlugin.GameData.NewData.GlobalAccelerationG]=='NaN',0,[DataCorePlugin.GameData.NewData.GlobalAccelerationG])\r\n,0),0))\r\n))/5)"
+                  },
+                  "FrontRightFormula": {
+                    "Expression": ""
+                  },
+                  "RearLeftFormula": {
+                    "Expression": ""
+                  },
+                  "RearRightFormula": {
+                    "Expression": ""
+                  },
+                  "IsMuted": false,
+                  "ContainerId": "10befe05-c5fe-462d-b66e-68d9a2dfab03",
+                  "ContainerType": "CustomEffectContainer",
+                  "Description": "Upshift no delay - Inner",
+                  "AggregationMode": "Mono",
+                  "Gain": 75.333333333333258,
+                  "IsEnabled": true,
+                  "Output": {
+                    "UsePrehemptiveMode": false,
+                    "Frequency": 50,
+                    "UseHighFrequency": true,
+                    "HighFrequency": 36,
+                    "WhiteNoise": 10,
+                    "UseWhiteNoise": false,
+                    "EnableDurationModulation": false,
+                    "DurationModulationValue": 80,
+                    "FrequencyBasedOnPreFilter": false,
+                    "Harmonics": 0,
+                    "HoldMode": 1,
+                    "DelayEnabled": false,
+                    "AssignToChannelGroup": true,
+                    "ChannelGroupName": "Gear Inner",
+                    "PropertyName": null,
+                    "ExportProperty": false,
+                    "DisableOutput": false,
+                    "OutputType": "ToneOutput"
+                  },
+                  "Algorythm": null
+                },
+                {
+                  "AutocalibrationMax": 95.0,
+                  "Filter": {
+                    "GammaValue": 0.49999999999999961,
+                    "InputGain": 100.0,
+                    "MinimumForce": 5,
+                    "Threshold": 0,
+                    "FilterType": "GammaFilter"
+                  },
+                  "FrontLeftFormula": {
+                    "Expression": "if(\r\n(\r\n(isincreasing(100,\r\nmaximum(200,\r\nif(isnull([DataCorePlugin.GameData.NewData.Gear],0)=='R','-1',\r\nif(isnull([DataCorePlugin.GameData.NewData.Gear],0)=='N','0',\r\nformat(isnull([DataCorePlugin.GameData.NewData.Gear],0),0)))\r\n))=='False')\r\n\r\nand\r\n(isincreasing(180,\r\nmaximum(200,\r\nif(isnull([DataCorePlugin.GameData.NewData.Gear],0)=='R','-1',\r\nif(isnull([DataCorePlugin.GameData.NewData.Gear],0)=='N','0',\r\nformat(isnull([DataCorePlugin.GameData.NewData.Gear],0),0)))\r\n))=='True')\r\n),100,0)\r\n*\r\n((abs(\r\nmaximum(300,\r\nformat(isnull(\r\nif(\r\n[DataCorePlugin.GameData.NewData.GlobalAccelerationG]=='NaN',0,[DataCorePlugin.GameData.NewData.GlobalAccelerationG])\r\n,0),'0.0'))\r\n-\r\nminimum(301,\r\nformat(isnull(\r\nif(\r\n[DataCorePlugin.GameData.NewData.GlobalAccelerationG]=='NaN',0,[DataCorePlugin.GameData.NewData.GlobalAccelerationG]),0),'0.0'))\r\n))/7)"
+                  },
+                  "FrontRightFormula": {
+                    "Expression": ""
+                  },
+                  "RearLeftFormula": {
+                    "Expression": ""
+                  },
+                  "RearRightFormula": {
+                    "Expression": ""
+                  },
+                  "IsMuted": false,
+                  "ContainerId": "66fc396e-2331-43b6-bbed-b4214d0c8ccf",
+                  "ContainerType": "CustomEffectContainer",
+                  "Description": "Upshift with delay - Outer",
+                  "AggregationMode": "Mono",
+                  "Gain": 100.0,
+                  "IsEnabled": true,
+                  "Output": {
+                    "UsePrehemptiveMode": false,
+                    "Frequency": 60,
+                    "UseHighFrequency": true,
+                    "HighFrequency": 43,
+                    "WhiteNoise": 10,
+                    "UseWhiteNoise": false,
+                    "EnableDurationModulation": false,
+                    "DurationModulationValue": 80,
+                    "FrequencyBasedOnPreFilter": false,
+                    "Harmonics": 0,
+                    "HoldMode": 1,
+                    "DelayEnabled": false,
+                    "AssignToChannelGroup": true,
+                    "ChannelGroupName": "Gear Outer",
+                    "PropertyName": null,
+                    "ExportProperty": false,
+                    "DisableOutput": false,
+                    "OutputType": "ToneOutput"
+                  },
+                  "Algorythm": null
+                }
+              ],
+              "Filter": null,
+              "IsMuted": false,
+              "ContainerId": "3423c5be-b993-4b2a-bae5-5e87c2fd7e96",
+              "ContainerType": "GroupContainer",
+              "Description": "Upshifts with delayed outer effect - Expands",
+              "AggregationMode": null,
+              "Gain": 100.0,
+              "IsEnabled": true,
+              "Output": null,
+              "Algorythm": null
+            },
+            {
+              "EffectsContainers": [
+                {
+                  "AutocalibrationMax": 95.0,
+                  "Filter": {
+                    "GammaValue": 0.49999999999999961,
+                    "InputGain": 100.0,
+                    "MinimumForce": 5,
+                    "Threshold": 0,
+                    "FilterType": "GammaFilter"
+                  },
+                  "FrontLeftFormula": {
+                    "Expression": "if(\r\nisdecreasing(80,\r\nminimum(200,\r\nif(isnull([DataCorePlugin.GameData.NewData.Gear],0)=='R','-1',\r\nif(isnull([DataCorePlugin.GameData.NewData.Gear],0)=='N','200',\r\nformat(isnull([DataCorePlugin.GameData.NewData.Gear],0),0)))\r\n))\r\n,100,0)\r\n\r\n*\r\n((abs(\r\nmaximum(202,\r\nformat(isnull(\r\nif(\r\n[DataCorePlugin.GameData.NewData.GlobalAccelerationG]=='NaN',0,[DataCorePlugin.GameData.NewData.GlobalAccelerationG])\r\n,0),'0.0'))\r\n-\r\nminimum(203,\r\nformat(isnull(\r\nif(\r\n[DataCorePlugin.GameData.NewData.GlobalAccelerationG]=='NaN',0,[DataCorePlugin.GameData.NewData.GlobalAccelerationG])\r\n,0),'0.0'))\r\n))/5)"
+                  },
+                  "FrontRightFormula": {
+                    "Expression": ""
+                  },
+                  "RearLeftFormula": {
+                    "Expression": ""
+                  },
+                  "RearRightFormula": {
+                    "Expression": ""
+                  },
+                  "IsMuted": false,
+                  "ContainerId": "a353fc49-6e05-4e8d-a12f-e173c94f8b83",
+                  "ContainerType": "CustomEffectContainer",
+                  "Description": "Downshifts no delay - Outer",
+                  "AggregationMode": "Mono",
+                  "Gain": 74.999999999999886,
+                  "IsEnabled": true,
+                  "Output": {
+                    "UsePrehemptiveMode": false,
+                    "Frequency": 60,
+                    "UseHighFrequency": true,
+                    "HighFrequency": 43,
+                    "WhiteNoise": 10,
+                    "UseWhiteNoise": false,
+                    "EnableDurationModulation": false,
+                    "DurationModulationValue": 80,
+                    "FrequencyBasedOnPreFilter": false,
+                    "Harmonics": 0,
+                    "HoldMode": 1,
+                    "DelayEnabled": false,
+                    "AssignToChannelGroup": true,
+                    "ChannelGroupName": "Gear Outer",
+                    "PropertyName": null,
+                    "ExportProperty": false,
+                    "DisableOutput": false,
+                    "OutputType": "ToneOutput"
+                  },
+                  "Algorythm": null
+                },
+                {
+                  "AutocalibrationMax": 95.0,
+                  "Filter": {
+                    "GammaValue": 0.49999999999999961,
+                    "InputGain": 100.0,
+                    "MinimumForce": 15,
+                    "Threshold": 0,
+                    "FilterType": "GammaFilter"
+                  },
+                  "FrontLeftFormula": {
+                    "Expression": "if(\r\n(\r\n(isdecreasing(100,\r\nminimum(200,\r\nif(isnull([DataCorePlugin.GameData.NewData.Gear],0)=='R','-1',\r\nif(isnull([DataCorePlugin.GameData.NewData.Gear],0)=='N','200',\r\nformat(isnull([DataCorePlugin.GameData.NewData.Gear],0),0)))\r\n))=='False')\r\n\r\nand\r\n(isdecreasing(180,\r\nminimum(200,\r\nif(isnull([DataCorePlugin.GameData.NewData.Gear],0)=='R','-1',\r\nif(isnull([DataCorePlugin.GameData.NewData.Gear],0)=='N','200',\r\nformat(isnull([DataCorePlugin.GameData.NewData.Gear],0),0)))\r\n))=='True')\r\n),100,0)\r\n\r\n*\r\n((abs(\r\nmaximum(302,\r\nformat(isnull(\r\nif(\r\n[DataCorePlugin.GameData.NewData.GlobalAccelerationG]=='NaN',0,[DataCorePlugin.GameData.NewData.GlobalAccelerationG])\r\n,0),0))\r\n-\r\nminimum(303,\r\nformat(isnull(\r\nif(\r\n[DataCorePlugin.GameData.NewData.GlobalAccelerationG]=='NaN',0,[DataCorePlugin.GameData.NewData.GlobalAccelerationG])\r\n,0),0))\r\n))/5)\r\n"
+                  },
+                  "FrontRightFormula": {
+                    "Expression": ""
+                  },
+                  "RearLeftFormula": {
+                    "Expression": ""
+                  },
+                  "RearRightFormula": {
+                    "Expression": ""
+                  },
+                  "IsMuted": false,
+                  "ContainerId": "a64cb256-5a56-43d0-aa2c-0f0d8300e085",
+                  "ContainerType": "CustomEffectContainer",
+                  "Description": "Downshifts with delay - Inner",
+                  "AggregationMode": "Mono",
+                  "Gain": 100.0,
+                  "IsEnabled": true,
+                  "Output": {
+                    "UsePrehemptiveMode": false,
+                    "Frequency": 50,
+                    "UseHighFrequency": true,
+                    "HighFrequency": 36,
+                    "WhiteNoise": 10,
+                    "UseWhiteNoise": false,
+                    "EnableDurationModulation": false,
+                    "DurationModulationValue": 80,
+                    "FrequencyBasedOnPreFilter": false,
+                    "Harmonics": 0,
+                    "HoldMode": 1,
+                    "DelayEnabled": false,
+                    "AssignToChannelGroup": true,
+                    "ChannelGroupName": "Gear Inner",
+                    "PropertyName": null,
+                    "ExportProperty": false,
+                    "DisableOutput": false,
+                    "OutputType": "ToneOutput"
+                  },
+                  "Algorythm": null
+                }
+              ],
+              "Filter": null,
+              "IsMuted": false,
+              "ContainerId": "c217cb08-f282-4727-934c-94e0fef4b9ca",
+              "ContainerType": "GroupContainer",
+              "Description": "Downshifts with delayed inner effect - Compresses",
+              "AggregationMode": null,
+              "Gain": 100.0,
+              "IsEnabled": true,
+              "Output": null,
+              "Algorythm": null
+            }
+          ],
+          "Filter": null,
+          "IsMuted": false,
+          "ContainerId": "4b94482d-bfdc-40b3-a78b-aca45be457be",
+          "ContainerType": "GroupContainer",
+          "Description": "Two-Step Shifts - Ka-Clunk! - Needs proper inner/outer mapping - Affected By Changes in Global Accel",
+          "AggregationMode": null,
+          "Gain": 100.0,
+          "IsEnabled": true,
+          "Output": null,
+          "Algorythm": null
+        },
+        {
+          "AutocalibrationMax": 95.0,
+          "Filter": {
+            "GammaValue": 1.0,
+            "InputGain": 100.0,
+            "MinimumForce": 10,
+            "Threshold": 0,
+            "FilterType": "GammaFilter"
+          },
+          "FrontLeftFormula": {
+            "Expression": "if(\t([DataCorePlugin.GameData.NewData.Clutch]<90\r\n\tand\r\n    \t[DataCorePlugin.GameData.NewData.Clutch]>20)\r\n\t,(([DataCorePlugin.GameData.NewData.Clutch]-20)*[DataCorePlugin.GameData.NewData.CarSettings_CurrentDisplayedRPMPercent]-[DataCorePlugin.GameData.NewData.SpeedKmh])/50\r\n,0)"
+          },
+          "FrontRightFormula": {
+            "Expression": ""
+          },
+          "RearLeftFormula": {
+            "Expression": ""
+          },
+          "RearRightFormula": {
+            "Expression": ""
+          },
+          "IsMuted": false,
+          "ContainerId": "97696005-e100-40b5-9486-5c5f2a5e33ae",
+          "ContainerType": "CustomEffectContainer",
+          "Description": "Clutch Bite Point - Pedals",
+          "AggregationMode": "Mono",
+          "Gain": 25.333333333333371,
+          "IsEnabled": true,
+          "Output": {
+            "UsePrehemptiveMode": false,
+            "Frequency": 50,
+            "UseHighFrequency": true,
+            "HighFrequency": 35,
+            "WhiteNoise": 10,
+            "UseWhiteNoise": true,
+            "EnableDurationModulation": true,
+            "DurationModulationValue": 34,
+            "FrequencyBasedOnPreFilter": false,
+            "Harmonics": 0,
+            "HoldMode": 1,
+            "DelayEnabled": false,
+            "AssignToChannelGroup": true,
+            "ChannelGroupName": "Gear Clutch",
+            "PropertyName": null,
+            "ExportProperty": false,
+            "DisableOutput": false,
+            "OutputType": "ToneOutput"
+          },
+          "Algorythm": null
+        },
+        {
+          "AutocalibrationMax": 95.0,
+          "Filter": {
+            "GammaValue": 1.0,
+            "InputGain": 100.0,
+            "MinimumForce": 50,
+            "Threshold": 0,
+            "FilterType": "GammaFilter"
+          },
+          "FrontLeftFormula": {
+            "Expression": "[ExtraInputProperties.ShakeItGearGrinding]\r\n"
+          },
+          "FrontRightFormula": {
+            "Expression": ""
+          },
+          "RearLeftFormula": {
+            "Expression": ""
+          },
+          "RearRightFormula": {
+            "Expression": ""
+          },
+          "IsMuted": false,
+          "ContainerId": "b480cc56-47e9-49c8-b978-5395d4881b6d",
+          "ContainerType": "CustomEffectContainer",
+          "Description": "Gear Grinding - Plugin",
+          "AggregationMode": "Mono",
+          "Gain": 100.0,
+          "IsEnabled": true,
+          "Output": {
+            "UsePrehemptiveMode": false,
+            "Frequency": 43,
+            "UseHighFrequency": true,
+            "HighFrequency": 60,
+            "WhiteNoise": 5,
+            "UseWhiteNoise": false,
+            "EnableDurationModulation": true,
+            "DurationModulationValue": 34,
+            "FrequencyBasedOnPreFilter": true,
+            "Harmonics": 0,
+            "HoldMode": 1,
+            "DelayEnabled": false,
+            "AssignToChannelGroup": true,
+            "ChannelGroupName": "Gear Grinding",
+            "PropertyName": null,
+            "ExportProperty": false,
+            "DisableOutput": false,
+            "OutputType": "ToneOutput"
+          },
+          "Algorythm": null
+        }
+      ],
+      "Filter": null,
+      "IsMuted": false,
+      "ToggleMute": {
+        "Trigger": "GraphicalDashPlugin.ShakersGearsMute",
+        "PressType": 4
+      },
+      "IncrementGainAction": {
+        "Trigger": "JoystickPlugin.F16_MFD_1_B07",
+        "PressType": 4
+      },
+      "DecrementGainAction": {
+        "Trigger": "JoystickPlugin.F16_MFD_1_B08",
+        "PressType": 4
+      },
+      "ContainerId": "c2501eb5-76d1-492f-8ee7-da1ee5158c67",
+      "ContainerType": "GroupContainer",
+      "Description": "Gear",
+      "AggregationMode": null,
+      "Gain": 100.0,
+      "IsEnabled": true,
+      "Output": null,
+      "Algorythm": null
+    },
+    {
+      "EffectsContainers": [
+        {
+          "AutocalibrationMax": 95.0,
+          "Filter": {
+            "GammaValue": 1.0,
+            "InputGain": 100.0,
+            "MinimumForce": 0,
+            "Threshold": 50,
+            "FilterType": "GammaFilter"
+          },
+          "FrontLeftFormula": {
+            "Expression": "round([DataCorePlugin.GameData.NewData.Brake],0.0)\r\n*\r\nround([DataCorePlugin.GameData.NewData.BrakeBias],0.0)\r\n*\r\nround([DataCorePlugin.GameData.NewData.SpeedLocal],0.0)\r\n/10000"
+          },
+          "FrontRightFormula": {
+            "Expression": ""
+          },
+          "RearLeftFormula": {
+            "Expression": "round([DataCorePlugin.GameData.NewData.Brake],0.0)\r\n*\r\nround(abs(100-[DataCorePlugin.GameData.NewData.BrakeBias]),0.0)\r\n*\r\nround([DataCorePlugin.GameData.NewData.SpeedLocal],0.0)\r\n/10000\r\n"
+          },
+          "RearRightFormula": {
+            "Expression": ""
+          },
+          "IsMuted": false,
+          "ContainerId": "b6fbea7e-d55b-493b-be3f-f8f334e3baa1",
+          "ContainerType": "CustomEffectContainer",
+          "Description": "Brake pressure/friction",
+          "AggregationMode": "Front/Rear",
+          "Gain": 90.0,
+          "IsEnabled": true,
+          "Output": {
+            "UsePrehemptiveMode": false,
+            "Frequency": 38,
+            "UseHighFrequency": true,
+            "HighFrequency": 70,
+            "WhiteNoise": 10,
+            "UseWhiteNoise": false,
+            "EnableDurationModulation": true,
+            "DurationModulationValue": 34,
+            "FrequencyBasedOnPreFilter": false,
+            "Harmonics": 0,
+            "HoldMode": 1,
+            "DelayEnabled": false,
+            "AssignToChannelGroup": false,
+            "ChannelGroupName": "",
+            "PropertyName": null,
+            "ExportProperty": false,
+            "DisableOutput": false,
+            "OutputType": "ToneOutput"
+          },
+          "Algorythm": null
+        }
+      ],
+      "Filter": null,
+      "IsMuted": false,
+      "ContainerId": "0a0cd2b5-8189-4c7f-817e-c01b91e20163",
+      "ContainerType": "GroupContainer",
+      "Description": "TEST",
+      "AggregationMode": null,
+      "Gain": 100.0,
+      "IsEnabled": false,
+      "Output": null,
+      "Algorythm": null
+    }
+  ],
+  "AutoCalibrationRatio2": 100,
+  "GameCode": "IRacing",
+  "LastLoaded": "2021-02-11T14:24:33.7763013+01:00",
+  "Name": "Romainrob - iRacing Bass Shakers v18",
+  "ProfileId": "358c37e2-f093-4f39-905b-c40c9a2515f6",
+  "OutputMode": 1,
+  "GlobalGain": 50.0,
+  "UseProfileGain": false
+}

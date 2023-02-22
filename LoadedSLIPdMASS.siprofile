@@ -1,0 +1,4104 @@
+{
+  "OutputManager": {
+    "ChannelsSettings": {
+      "{0.0.0.00000000}.{188edc98-7d14-4e84-9ba2-a53b39418d4c}": {
+        "ControlVolume": true,
+        "UseLowPassFilter": false,
+        "LowPassFilter": 200,
+        "UseHighPassFilter": false,
+        "HighPassFilter": 20,
+        "IsEnabled": false,
+        "AudioMode": 2,
+        "DeviceType": 0,
+        "EffectToChannelsMapStore": {},
+        "GlobalChannelsSettings": {},
+        "Name": "Realtek Digital Output (Realtek(R) Audio)",
+        "OutputId": "{0.0.0.00000000}.{188edc98-7d14-4e84-9ba2-a53b39418d4c}",
+        "ShowPerEffectsLevels": false,
+        "IsFavorite": false
+      },
+      "{0.0.0.00000000}.{40fcf385-c5ee-444e-9de4-952409418ba9}": {
+        "ControlVolume": true,
+        "UseLowPassFilter": false,
+        "LowPassFilter": 200,
+        "UseHighPassFilter": false,
+        "HighPassFilter": 20,
+        "IsEnabled": true,
+        "AudioMode": 3,
+        "DeviceType": 0,
+        "EffectToChannelsMapStore": {
+          "WheelsRumbleContainerHeavy": {
+            "Front": {
+              "MapsStore": "0;1;50;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;1;80;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "WheelsVibrationContainer1. SM": {
+            "Front": {
+              "MapsStore": "0;1;20;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;1;60;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "WheelsVibrationContainer2. ML": {
+            "Front": {
+              "MapsStore": "0;1;20;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;1;61;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "WheelsSlipContainerF/R SLIP No.1": {
+            "Front": {
+              "MapsStore": "0;1;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;1;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "GearEffectContainer3. C": {
+            "All": {
+              "MapsStore": "0;1;320;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "DecelerationGforceContainer": {
+            "Front": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "GearEffectContainer": {
+            "All": {
+              "MapsStore": "0;0;100;|1;1;180;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "WheelsLockContainer": {
+            "Front": {
+              "MapsStore": "0;1;15;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;1;50;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "WheelsSlipContainerF/R SLIP No.3": {
+            "Front": {
+              "MapsStore": "0;1;60;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;1;180;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "WheelsVibrationContainer3. XL": {
+            "Front": {
+              "MapsStore": "0;1;30;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;1;60;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "GearEffectContainer2. B": {
+            "All": {
+              "MapsStore": "0;0;100;|1;1;150;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "WheelsSlipContainerF/R SLIP No.2": {
+            "Front": {
+              "MapsStore": "0;1;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;1;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "WheelsRumbleContainerSharp": {
+            "Front": {
+              "MapsStore": "0;1;45;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;1;90;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "AccelerationGforceContainer": {
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "RPMContainer": {
+            "All": {
+              "MapsStore": "0;0;100;|1;1;60;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "GearEffectContainer1. A": {
+            "All": {
+              "MapsStore": "0;0;100;|1;1;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "SpeedContainer": {
+            "All": {
+              "MapsStore": "0;0;100;|1;1;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          }
+        },
+        "GlobalChannelsSettings": {
+          "Quad": {
+            "MapsStore": "0;1;100;Front left|1;1;100;Front right|2;1;100;Rear left|3;1;100;Rear right|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+          },
+          "Custom": {
+            "MapsStore": "0;1;11;Front|1;1;11;Rear|2;1;100;|3;1;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+          }
+        },
+        "Name": "Speakers (Realtek(R) Audio)",
+        "OutputId": "{0.0.0.00000000}.{40fcf385-c5ee-444e-9de4-952409418ba9}",
+        "ShowPerEffectsLevels": true,
+        "IsFavorite": false
+      },
+      "{0.0.0.00000000}.{951c8eea-4f91-40d3-a5fd-515f7e199d5a}": {
+        "ControlVolume": true,
+        "UseLowPassFilter": false,
+        "LowPassFilter": 200,
+        "UseHighPassFilter": false,
+        "HighPassFilter": 20,
+        "IsEnabled": false,
+        "AudioMode": 2,
+        "DeviceType": 0,
+        "EffectToChannelsMapStore": {},
+        "GlobalChannelsSettings": {},
+        "Name": "LG TV (NVIDIA High Definition Audio)",
+        "OutputId": "{0.0.0.00000000}.{951c8eea-4f91-40d3-a5fd-515f7e199d5a}",
+        "ShowPerEffectsLevels": false,
+        "IsFavorite": false
+      },
+      "{0.0.0.00000000}.{72896fa5-77af-46b8-9106-d3c7192cea43}": {
+        "ControlVolume": true,
+        "UseLowPassFilter": false,
+        "LowPassFilter": 200,
+        "UseHighPassFilter": false,
+        "HighPassFilter": 20,
+        "IsEnabled": false,
+        "AudioMode": 2,
+        "DeviceType": 0,
+        "EffectToChannelsMapStore": {},
+        "GlobalChannelsSettings": {},
+        "Name": "LG TV (NVIDIA High Definition Audio)",
+        "OutputId": "{0.0.0.00000000}.{72896fa5-77af-46b8-9106-d3c7192cea43}",
+        "ShowPerEffectsLevels": false,
+        "IsFavorite": false
+      },
+      "{0.0.0.00000000}.{06b83197-946d-4d37-8e57-d1f272fbec3f}": {
+        "ControlVolume": true,
+        "UseLowPassFilter": false,
+        "LowPassFilter": 200,
+        "UseHighPassFilter": false,
+        "HighPassFilter": 20,
+        "IsEnabled": false,
+        "AudioMode": 2,
+        "DeviceType": 0,
+        "EffectToChannelsMapStore": {},
+        "GlobalChannelsSettings": {},
+        "Name": "U28D590 (NVIDIA High Definition Audio)",
+        "OutputId": "{0.0.0.00000000}.{06b83197-946d-4d37-8e57-d1f272fbec3f}",
+        "ShowPerEffectsLevels": false,
+        "IsFavorite": false
+      },
+      "{0.0.0.00000000}.{6cf4c998-2f95-42da-8bbd-300717c9d5ce}": {
+        "ControlVolume": true,
+        "UseLowPassFilter": false,
+        "LowPassFilter": 200,
+        "UseHighPassFilter": false,
+        "HighPassFilter": 20,
+        "IsEnabled": false,
+        "AudioMode": 2,
+        "DeviceType": 0,
+        "EffectToChannelsMapStore": {},
+        "GlobalChannelsSettings": {},
+        "Name": "Speakers (Bose SoundLink Wireless Mobile speaker Stereo)",
+        "OutputId": "{0.0.0.00000000}.{6cf4c998-2f95-42da-8bbd-300717c9d5ce}",
+        "ShowPerEffectsLevels": false,
+        "IsFavorite": false
+      },
+      "{0.0.0.00000000}.{fb7d91be-bb8e-4c91-8ffb-54713d907d84}": {
+        "ControlVolume": true,
+        "UseLowPassFilter": false,
+        "LowPassFilter": 200,
+        "UseHighPassFilter": false,
+        "HighPassFilter": 20,
+        "IsEnabled": false,
+        "AudioMode": 2,
+        "DeviceType": 0,
+        "EffectToChannelsMapStore": {},
+        "GlobalChannelsSettings": {},
+        "Name": "VoiceMeeter Input (VB-Audio VoiceMeeter VAIO)",
+        "OutputId": "{0.0.0.00000000}.{fb7d91be-bb8e-4c91-8ffb-54713d907d84}",
+        "ShowPerEffectsLevels": false,
+        "IsFavorite": false
+      },
+      "{0.0.0.00000000}.{2a8b0b13-8d00-4383-a974-3e869ba110b4}": {
+        "ControlVolume": true,
+        "UseLowPassFilter": false,
+        "LowPassFilter": 200,
+        "UseHighPassFilter": false,
+        "HighPassFilter": 20,
+        "IsEnabled": false,
+        "AudioMode": 2,
+        "DeviceType": 0,
+        "EffectToChannelsMapStore": {},
+        "GlobalChannelsSettings": {},
+        "Name": "Headset Earphone (Corsair VOID Wireless Gaming Dongle)",
+        "OutputId": "{0.0.0.00000000}.{2a8b0b13-8d00-4383-a974-3e869ba110b4}",
+        "ShowPerEffectsLevels": false,
+        "IsFavorite": false
+      },
+      "{0.0.0.00000000}.{5f014606-dfe5-443d-91e8-650b6d107335}": {
+        "ControlVolume": true,
+        "UseLowPassFilter": false,
+        "LowPassFilter": 200,
+        "UseHighPassFilter": false,
+        "HighPassFilter": 20,
+        "IsEnabled": false,
+        "AudioMode": 2,
+        "DeviceType": 0,
+        "EffectToChannelsMapStore": {},
+        "GlobalChannelsSettings": {},
+        "Name": "LG TV (2- NVIDIA High Definition Audio)",
+        "OutputId": "{0.0.0.00000000}.{5f014606-dfe5-443d-91e8-650b6d107335}",
+        "ShowPerEffectsLevels": false,
+        "IsFavorite": false
+      },
+      "{0.0.0.00000000}.{48cde5ec-f0bf-4be6-bf64-95e9903434ac}": {
+        "ControlVolume": true,
+        "UseLowPassFilter": false,
+        "LowPassFilter": 200,
+        "UseHighPassFilter": false,
+        "HighPassFilter": 20,
+        "IsEnabled": false,
+        "AudioMode": 2,
+        "DeviceType": 0,
+        "EffectToChannelsMapStore": {},
+        "GlobalChannelsSettings": {},
+        "Name": "VoiceMeeter Aux Input (VB-Audio VoiceMeeter AUX VAIO)",
+        "OutputId": "{0.0.0.00000000}.{48cde5ec-f0bf-4be6-bf64-95e9903434ac}",
+        "ShowPerEffectsLevels": false,
+        "IsFavorite": false
+      },
+      "{0.0.0.00000000}.{52bd17e0-55e7-48ee-88f9-73d4801eb63c}": {
+        "ControlVolume": true,
+        "UseLowPassFilter": false,
+        "LowPassFilter": 200,
+        "UseHighPassFilter": false,
+        "HighPassFilter": 20,
+        "IsEnabled": false,
+        "AudioMode": 2,
+        "DeviceType": 0,
+        "EffectToChannelsMapStore": {},
+        "GlobalChannelsSettings": {},
+        "Name": "VoiceMeeter Input (VB-Audio VoiceMeeter VAIO)",
+        "OutputId": "{0.0.0.00000000}.{52bd17e0-55e7-48ee-88f9-73d4801eb63c}",
+        "ShowPerEffectsLevels": false,
+        "IsFavorite": false
+      },
+      "{0.0.0.00000000}.{8e858f21-eaec-4617-a5d5-c95bb7d89f61}": {
+        "ControlVolume": true,
+        "UseLowPassFilter": false,
+        "LowPassFilter": 200,
+        "UseHighPassFilter": false,
+        "HighPassFilter": 20,
+        "IsEnabled": false,
+        "AudioMode": 2,
+        "DeviceType": 0,
+        "EffectToChannelsMapStore": {},
+        "GlobalChannelsSettings": {},
+        "Name": "LG TV (2- NVIDIA High Definition Audio)",
+        "OutputId": "{0.0.0.00000000}.{8e858f21-eaec-4617-a5d5-c95bb7d89f61}",
+        "ShowPerEffectsLevels": false,
+        "IsFavorite": false
+      },
+      "{0.0.0.00000000}.{980bd114-2a29-4e9e-b026-94f69b1a5011}": {
+        "ControlVolume": true,
+        "UseLowPassFilter": false,
+        "LowPassFilter": 200,
+        "UseHighPassFilter": false,
+        "HighPassFilter": 20,
+        "IsEnabled": false,
+        "AudioMode": 2,
+        "DeviceType": 0,
+        "EffectToChannelsMapStore": {},
+        "GlobalChannelsSettings": {},
+        "Name": "Headset Earphone (2- Corsair VOID Wireless Gaming Dongle)",
+        "OutputId": "{0.0.0.00000000}.{980bd114-2a29-4e9e-b026-94f69b1a5011}",
+        "ShowPerEffectsLevels": false,
+        "IsFavorite": false
+      },
+      "{0.0.0.00000000}.{6353dc89-e4b7-418d-b88f-d6ea3f258b44}": {
+        "ControlVolume": true,
+        "UseLowPassFilter": false,
+        "LowPassFilter": 200,
+        "UseHighPassFilter": false,
+        "HighPassFilter": 20,
+        "IsEnabled": false,
+        "AudioMode": 2,
+        "DeviceType": 0,
+        "EffectToChannelsMapStore": {},
+        "GlobalChannelsSettings": {},
+        "Name": "VoiceMeeter Input (VB-Audio VoiceMeeter VAIO)",
+        "OutputId": "{0.0.0.00000000}.{6353dc89-e4b7-418d-b88f-d6ea3f258b44}",
+        "ShowPerEffectsLevels": false,
+        "IsFavorite": false
+      },
+      "{0.0.0.00000000}.{800dd468-9a59-4c02-aaa0-8ed07b4ed797}": {
+        "ControlVolume": true,
+        "UseLowPassFilter": false,
+        "LowPassFilter": 200,
+        "UseHighPassFilter": false,
+        "HighPassFilter": 20,
+        "IsEnabled": false,
+        "AudioMode": 2,
+        "DeviceType": 0,
+        "EffectToChannelsMapStore": {},
+        "GlobalChannelsSettings": {},
+        "Name": "VoiceMeeter Aux Input (VB-Audio VoiceMeeter AUX VAIO)",
+        "OutputId": "{0.0.0.00000000}.{800dd468-9a59-4c02-aaa0-8ed07b4ed797}",
+        "ShowPerEffectsLevels": false,
+        "IsFavorite": false
+      },
+      "{0.0.0.00000000}.{95f8ee58-6fa7-4a02-9bde-30ef5390f228}": {
+        "ControlVolume": true,
+        "UseLowPassFilter": false,
+        "LowPassFilter": 200,
+        "UseHighPassFilter": false,
+        "HighPassFilter": 20,
+        "IsEnabled": false,
+        "AudioMode": 2,
+        "DeviceType": 0,
+        "EffectToChannelsMapStore": {},
+        "GlobalChannelsSettings": {},
+        "Name": "LG TV (NVIDIA High Definition Audio)",
+        "OutputId": "{0.0.0.00000000}.{95f8ee58-6fa7-4a02-9bde-30ef5390f228}",
+        "ShowPerEffectsLevels": false,
+        "IsFavorite": false
+      },
+      "{0.0.0.00000000}.{b6222b0b-bc09-4c28-a89c-49bec301f4a9}": {
+        "ControlVolume": true,
+        "UseLowPassFilter": false,
+        "LowPassFilter": 200,
+        "UseHighPassFilter": false,
+        "HighPassFilter": 20,
+        "IsEnabled": false,
+        "AudioMode": 2,
+        "DeviceType": 0,
+        "EffectToChannelsMapStore": {},
+        "GlobalChannelsSettings": {},
+        "Name": "Speakers (Realtek(R) Audio)",
+        "OutputId": "{0.0.0.00000000}.{b6222b0b-bc09-4c28-a89c-49bec301f4a9}",
+        "ShowPerEffectsLevels": false,
+        "IsFavorite": false
+      },
+      "{0.0.0.00000000}.{2515474e-b7ff-4c41-b2c0-55da06fa3519}": {
+        "ControlVolume": true,
+        "UseLowPassFilter": false,
+        "LowPassFilter": 200,
+        "UseHighPassFilter": false,
+        "HighPassFilter": 20,
+        "IsEnabled": false,
+        "AudioMode": 2,
+        "DeviceType": 0,
+        "EffectToChannelsMapStore": {},
+        "GlobalChannelsSettings": {},
+        "Name": "LG TV (NVIDIA High Definition Audio)",
+        "OutputId": "{0.0.0.00000000}.{2515474e-b7ff-4c41-b2c0-55da06fa3519}",
+        "ShowPerEffectsLevels": false,
+        "IsFavorite": false
+      },
+      "{0.0.0.00000000}.{ef20fa60-91c4-4449-93b6-8517df46ecc2}": {
+        "ControlVolume": true,
+        "UseLowPassFilter": false,
+        "LowPassFilter": 200,
+        "UseHighPassFilter": false,
+        "HighPassFilter": 20,
+        "IsEnabled": true,
+        "AudioMode": 3,
+        "DeviceType": 0,
+        "EffectToChannelsMapStore": {
+          "SpeedContainer": {
+            "All": {
+              "MapsStore": "0;0;100;|1;1;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "WheelsRumbleContainerSharp": {
+            "Front": {
+              "MapsStore": "0;1;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;1;37;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "WheelsVibrationContainer1. SM": {
+            "Front": {
+              "MapsStore": "0;1;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;1;47;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "WheelsSlipContainerF/R SLIP No.3": {
+            "Front": {
+              "MapsStore": "0;1;180;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;1;40;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "CustomEffectContainerUpshifts Hz Test": {
+            "FrontLeft": {
+              "MapsStore": "0;1;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "FrontRight": {
+              "MapsStore": "0;0;100;|1;1;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "RearLeft": {
+              "MapsStore": "0;0;100;|1;0;100;|2;1;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "RearRight": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;1;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "WheelsLockContainer": {
+            "Front": {
+              "MapsStore": "0;1;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;1;51;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "AccelerationGforceContaineraccelerationdeep": {
+            "Rear": {
+              "MapsStore": "0;0;100;|1;1;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "GearEffectContainer3. C": {
+            "All": {
+              "MapsStore": "0;1;200;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "WheelsSlipContainerF/R SLIP No.1": {
+            "Front": {
+              "MapsStore": "0;1;120;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;1;78;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "SpeedContainer2. B": {
+            "All": {
+              "MapsStore": "0;0;100;|1;1;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "DecelerationGforceContainer": {
+            "Front": {
+              "MapsStore": "0;1;100;|1;1;45;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "GearEffectContainer2. B": {
+            "All": {
+              "MapsStore": "0;0;100;|1;1;84;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "RPMContainer4. Peak": {
+            "All": {
+              "MapsStore": "0;1;100;|1;1;10;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "SpeedContainer3. C": {
+            "All": {
+              "MapsStore": "0;0;99;|1;1;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "RPMContainer2. Low / Mid": {
+            "All": {
+              "MapsStore": "0;1;100;|1;1;15;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "RPMContainer1. General Tone": {
+            "All": {
+              "MapsStore": "0;1;100;|1;1;15;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "AccelerationGforceContainer": {
+            "Rear": {
+              "MapsStore": "0;1;100;|1;1;70;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "WheelsRumbleContainerHeavy": {
+            "Front": {
+              "MapsStore": "0;1;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;1;30;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "WheelsSlipContainerF/R SLIP No.2": {
+            "Front": {
+              "MapsStore": "0;1;120;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;1;64;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "WheelsVibrationContainer3. XL": {
+            "Front": {
+              "MapsStore": "0;1;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;1;30;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "RPMContainer": {
+            "All": {
+              "MapsStore": "0;1;100;|1;1;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "AccelerationGforceContaineraccelerationhigh": {
+            "Rear": {
+              "MapsStore": "0;0;100;|1;1;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "WheelsVibrationContainer2. ML": {
+            "Front": {
+              "MapsStore": "0;1;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;1;40;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "GearEffectContainer": {
+            "All": {
+              "MapsStore": "0;0;100;|1;1;95;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "RPMContainer3. Mid / High": {
+            "All": {
+              "MapsStore": "0;1;100;|1;1;15;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          }
+        },
+        "GlobalChannelsSettings": {
+          "Quad": {
+            "MapsStore": "0;1;100;Front left|1;1;100;Front right|2;1;100;Rear left|3;1;100;Rear right|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+          },
+          "Custom": {
+            "MapsStore": "0;1;100;Front|1;1;100;Rear|2;1;100;|3;1;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+          },
+          "StereoFR": {
+            "MapsStore": "0;1;100;Front|1;1;100;Rear|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+          }
+        },
+        "Name": "Speakers (Realtek(R) Audio)",
+        "OutputId": "{0.0.0.00000000}.{ef20fa60-91c4-4449-93b6-8517df46ecc2}",
+        "ShowPerEffectsLevels": true,
+        "IsFavorite": false
+      },
+      "{0.0.0.00000000}.{9dec4b41-d060-450d-a151-751f7fe7ed9d}": {
+        "ControlVolume": true,
+        "UseLowPassFilter": false,
+        "LowPassFilter": 200,
+        "UseHighPassFilter": false,
+        "HighPassFilter": 20,
+        "IsEnabled": false,
+        "AudioMode": 2,
+        "DeviceType": 0,
+        "EffectToChannelsMapStore": {},
+        "GlobalChannelsSettings": {},
+        "Name": "LG TV (NVIDIA High Definition Audio)",
+        "OutputId": "{0.0.0.00000000}.{9dec4b41-d060-450d-a151-751f7fe7ed9d}",
+        "ShowPerEffectsLevels": false,
+        "IsFavorite": false
+      },
+      "{0.0.0.00000000}.{641868d2-ceba-4c18-b9b1-8f0f0f0ab444}": {
+        "ControlVolume": true,
+        "UseLowPassFilter": false,
+        "LowPassFilter": 200,
+        "UseHighPassFilter": false,
+        "HighPassFilter": 20,
+        "IsEnabled": false,
+        "AudioMode": 2,
+        "DeviceType": 0,
+        "EffectToChannelsMapStore": {},
+        "GlobalChannelsSettings": {},
+        "Name": "Headset Earphone (Corsair VOID Wireless Gaming Dongle)",
+        "OutputId": "{0.0.0.00000000}.{641868d2-ceba-4c18-b9b1-8f0f0f0ab444}",
+        "ShowPerEffectsLevels": false,
+        "IsFavorite": false
+      },
+      "{0.0.0.00000000}.{bcb7b3cc-895d-4328-88f8-6587b71613d7}": {
+        "ControlVolume": true,
+        "UseLowPassFilter": false,
+        "LowPassFilter": 200,
+        "UseHighPassFilter": false,
+        "HighPassFilter": 20,
+        "IsEnabled": false,
+        "AudioMode": 2,
+        "DeviceType": 0,
+        "EffectToChannelsMapStore": {},
+        "GlobalChannelsSettings": {},
+        "Name": "LG TV (NVIDIA High Definition Audio)",
+        "OutputId": "{0.0.0.00000000}.{bcb7b3cc-895d-4328-88f8-6587b71613d7}",
+        "ShowPerEffectsLevels": false,
+        "IsFavorite": false
+      },
+      "{0.0.0.00000000}.{25ae4960-b907-4325-b07c-7f1b62e45473}": {
+        "ControlVolume": true,
+        "UseLowPassFilter": false,
+        "LowPassFilter": 200,
+        "UseHighPassFilter": false,
+        "HighPassFilter": 20,
+        "IsEnabled": false,
+        "AudioMode": 2,
+        "DeviceType": 0,
+        "EffectToChannelsMapStore": {},
+        "GlobalChannelsSettings": {},
+        "Name": "Realtek Digital Output (Realtek(R) Audio)",
+        "OutputId": "{0.0.0.00000000}.{25ae4960-b907-4325-b07c-7f1b62e45473}",
+        "ShowPerEffectsLevels": false,
+        "IsFavorite": false
+      },
+      "{0.0.0.00000000}.{d08991de-3715-4f85-ae64-45ad8b74bd17}": {
+        "ControlVolume": true,
+        "UseLowPassFilter": false,
+        "LowPassFilter": 200,
+        "UseHighPassFilter": false,
+        "HighPassFilter": 20,
+        "IsEnabled": true,
+        "AudioMode": 3,
+        "DeviceType": 0,
+        "EffectToChannelsMapStore": {
+          "SpeedContainer": {
+            "All": {
+              "MapsStore": "0;0;100;|1;1;100;|2;0;100;|3;0;98;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "WheelsRumbleContainerSharp": {
+            "Front": {
+              "MapsStore": "0;1;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;1;30;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "WheelsVibrationContainer1. SM": {
+            "Front": {
+              "MapsStore": "0;1;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;1;30;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "WheelsSlipContainerF/R SLIP No.3": {
+            "Front": {
+              "MapsStore": "0;1;89;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;1;70;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "WheelsLockContainer": {
+            "Front": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "AccelerationGforceContaineraccelerationdeep": {
+            "Rear": {
+              "MapsStore": "0;0;100;|1;1;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "GearEffectContainer3. C": {
+            "All": {
+              "MapsStore": "0;1;150;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "WheelsSlipContainerF/R SLIP No.1": {
+            "Front": {
+              "MapsStore": "0;1;70;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;1;40;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "SpeedContainer2. B": {
+            "All": {
+              "MapsStore": "0;0;100;|1;1;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "GearEffectContainer2. B": {
+            "All": {
+              "MapsStore": "0;1;100;|1;1;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "RPMContainer4. Peak": {
+            "All": {
+              "MapsStore": "0;1;100;|1;1;10;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "SpeedContainer3. C": {
+            "All": {
+              "MapsStore": "0;0;100;|1;1;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "RPMContainer2. Low / Mid": {
+            "All": {
+              "MapsStore": "0;1;100;|1;1;10;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "RPMContainer1. General Tone": {
+            "All": {
+              "MapsStore": "0;1;100;|1;1;10;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "WheelsRumbleContainerHeavy": {
+            "Front": {
+              "MapsStore": "0;1;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;1;30;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "WheelsSlipContainerF/R SLIP No.2": {
+            "Front": {
+              "MapsStore": "0;1;70;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;1;40;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "WheelsVibrationContainer3. XL": {
+            "Front": {
+              "MapsStore": "0;1;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;1;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "AccelerationGforceContaineraccelerationhigh": {
+            "Rear": {
+              "MapsStore": "0;0;100;|1;1;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "WheelsVibrationContainer2. ML": {
+            "Front": {
+              "MapsStore": "0;1;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;1;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "GearEffectContainer": {
+            "All": {
+              "MapsStore": "0;1;100;|1;1;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "RPMContainer3. Mid / High": {
+            "All": {
+              "MapsStore": "0;1;100;|1;1;10;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          }
+        },
+        "GlobalChannelsSettings": {
+          "Quad": {
+            "MapsStore": "0;1;100;Front left|1;1;100;Front right|2;1;100;Rear left|3;1;100;Rear right|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+          },
+          "Custom": {
+            "MapsStore": "0;1;100;|1;1;100;|2;1;100;|3;1;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+          }
+        },
+        "Name": "Speakers (Realtek(R) Audio)",
+        "OutputId": "{0.0.0.00000000}.{d08991de-3715-4f85-ae64-45ad8b74bd17}",
+        "ShowPerEffectsLevels": true,
+        "IsFavorite": false
+      },
+      "{0.0.0.00000000}.{dbd06a05-653f-446e-bed3-1086cdd54e43}": {
+        "ControlVolume": true,
+        "UseLowPassFilter": false,
+        "LowPassFilter": 200,
+        "UseHighPassFilter": false,
+        "HighPassFilter": 20,
+        "IsEnabled": false,
+        "AudioMode": 2,
+        "DeviceType": 0,
+        "EffectToChannelsMapStore": {},
+        "GlobalChannelsSettings": {},
+        "Name": "LG TV (NVIDIA High Definition Audio)",
+        "OutputId": "{0.0.0.00000000}.{dbd06a05-653f-446e-bed3-1086cdd54e43}",
+        "ShowPerEffectsLevels": false,
+        "IsFavorite": false
+      },
+      "{0.0.0.00000000}.{de517682-a0d1-4308-8c55-41a3fa0f6a76}": {
+        "ControlVolume": true,
+        "UseLowPassFilter": false,
+        "LowPassFilter": 200,
+        "UseHighPassFilter": false,
+        "HighPassFilter": 20,
+        "IsEnabled": false,
+        "AudioMode": 2,
+        "DeviceType": 0,
+        "EffectToChannelsMapStore": {},
+        "GlobalChannelsSettings": {},
+        "Name": "Headset Earphone (Corsair VOID Wireless Gaming Dongle)",
+        "OutputId": "{0.0.0.00000000}.{de517682-a0d1-4308-8c55-41a3fa0f6a76}",
+        "ShowPerEffectsLevels": false,
+        "IsFavorite": false
+      },
+      "{0.0.0.00000000}.{3cfbb68f-a4dc-41b7-8332-b706e13ab5ee}": {
+        "ControlVolume": true,
+        "UseLowPassFilter": false,
+        "LowPassFilter": 200,
+        "UseHighPassFilter": false,
+        "HighPassFilter": 20,
+        "IsEnabled": false,
+        "AudioMode": 2,
+        "DeviceType": 0,
+        "EffectToChannelsMapStore": {},
+        "GlobalChannelsSettings": {},
+        "Name": "LG TV (NVIDIA High Definition Audio)",
+        "OutputId": "{0.0.0.00000000}.{3cfbb68f-a4dc-41b7-8332-b706e13ab5ee}",
+        "ShowPerEffectsLevels": false,
+        "IsFavorite": false
+      },
+      "{0.0.0.00000000}.{a27cff70-1e34-4ad0-ab0d-e5a63b754f2b}": {
+        "ControlVolume": true,
+        "UseLowPassFilter": false,
+        "LowPassFilter": 200,
+        "UseHighPassFilter": false,
+        "HighPassFilter": 20,
+        "IsEnabled": false,
+        "AudioMode": 2,
+        "DeviceType": 0,
+        "EffectToChannelsMapStore": {},
+        "GlobalChannelsSettings": {},
+        "Name": "Realtek Digital Output (Realtek(R) Audio)",
+        "OutputId": "{0.0.0.00000000}.{a27cff70-1e34-4ad0-ab0d-e5a63b754f2b}",
+        "ShowPerEffectsLevels": false,
+        "IsFavorite": false
+      },
+      "{0.0.0.00000000}.{dc83e5cb-0847-41d3-8a52-7adae2b020b1}": {
+        "ControlVolume": true,
+        "UseLowPassFilter": false,
+        "LowPassFilter": 200,
+        "UseHighPassFilter": false,
+        "HighPassFilter": 20,
+        "IsEnabled": true,
+        "AudioMode": 3,
+        "DeviceType": 0,
+        "EffectToChannelsMapStore": {
+          "AccelerationGforceContainer": {
+            "Rear": {
+              "MapsStore": "0;0;100;|1;1;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "SpeedContainer3. C": {
+            "All": {
+              "MapsStore": "0;0;100;|1;1;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "GearEffectContainer4. D": {
+            "All": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "RPMContainerRPM DETAIL 2": {
+            "All": {
+              "MapsStore": "0;0;100;|1;1;50;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "RPMContainer28HZ": {
+            "All": {
+              "MapsStore": "0;0;200;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "CustomEffectContainer2 L&S - T5 -MQB-1 BK2": {
+            "Front": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;1;20;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "RPMContainer175HZ PEAK": {
+            "All": {
+              "MapsStore": "0;0;100;|1;1;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "GearEffectContainerShift D": {
+            "All": {
+              "MapsStore": "0;1;100;|1;1;100;|2;1;100;|3;1;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "SpeedContainer1. A": {
+            "All": {
+              "MapsStore": "0;0;100;|1;1;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "GearEffectContainer": {
+            "All": {
+              "MapsStore": "0;0;100;|1;1;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "RPMContainer*AM RPM": {
+            "All": {
+              "MapsStore": "0;1;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "CustomEffectContainer2 L&S - T9 - LB Q10B": {
+            "Front": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "GearEffectContainerShift C": {
+            "All": {
+              "MapsStore": "0;1;100;|1;1;100;|2;1;100;|3;1;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "WheelsVibrationContainer2. ML": {
+            "Front": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;1;55;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "RPMContainer4. Peak": {
+            "All": {
+              "MapsStore": "0;0;100;|1;1;200;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "CustomEffectContainer2 L&S - T1 - MQB-1 BK2": {
+            "Front": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;1;30;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "RPMContainerPEAK RPM 2": {
+            "All": {
+              "MapsStore": "0;0;100;|1;1;90;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "RPMContainerPEAK RPM": {
+            "All": {
+              "MapsStore": "0;0;100;|1;1;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "SpeedContainer": {
+            "All": {
+              "MapsStore": "0;0;100;|1;1;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "WheelsLockContainer": {
+            "Front": {
+              "MapsStore": "0;1;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;1;95;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "WheelsSlipContainerWHEELSLIP 4": {
+            "Front": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;1;130;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "WheelsSlipContainerMQB-1 WHEELS SLIP 2": {
+            "Front": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "WheelsSlipContainerREAR 4": {
+            "Front": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;1;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "WheelsSlipContainerREAR 2": {
+            "Front": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "WheelsSlipContainerWHEELSLIP 3": {
+            "Front": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;1;130;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "WheelsSlipContainerREAR 3": {
+            "Front": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;1;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "WheelsSlipContainerREAR 1": {
+            "Front": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "GearEffectContainerShift A": {
+            "All": {
+              "MapsStore": "0;1;100;|1;1;100;|2;1;100;|3;1;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "CustomEffectContainer2 L&S -T3 - MQB-1 BK2": {
+            "Front": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;1;15;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "GearEffectContainer4. D EARTHQUAKE": {
+            "All": {
+              "MapsStore": "0;1;100;|1;1;100;|2;1;100;|3;1;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "GearEffectContainer3. C": {
+            "All": {
+              "MapsStore": "0;0;180;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "CustomEffectContainer2 L&S - T7 - LB MQB-1 BK2": {
+            "Front": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;1;20;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "DecelerationGforceContainerC": {
+            "Front": {
+              "MapsStore": "0;1;100;|1;1;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "GearEffectContainer4. D EQ": {
+            "All": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "WheelsSlipContainerWHEELSLIP 1": {
+            "Front": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "SpeedContainer2. B": {
+            "All": {
+              "MapsStore": "0;0;100;|1;1;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "RPMContainerRPM GREEN 2": {
+            "All": {
+              "MapsStore": "0;0;100;|1;1;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "RPMContainerRPM 56HZ": {
+            "All": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "DecelerationGforceContainer": {
+            "Front": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "GearEffectContainer5. E": {
+            "All": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "GearEffectContainerShift B": {
+            "All": {
+              "MapsStore": "0;1;100;|1;1;100;|2;1;100;|3;1;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "RPMContainerRPM GREEN": {
+            "All": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "AccelerationGforceContaineraccelerationhigh": {
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "WheelsVibrationContainer3. XL": {
+            "Front": {
+              "MapsStore": "0;0;150;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;1;50;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "DecelerationGforceContainerDECELERATION C": {
+            "Front": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "DecelerationGforceContainerDECELERATION B": {
+            "Front": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "DecelerationGforceContainerDECELERATION A": {
+            "Front": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "WheelsVibrationContainer1. SM": {
+            "Front": {
+              "MapsStore": "0;0;50;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;1;45;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "WheelsSlipContainerF/R SLIP No.3": {
+            "Front": {
+              "MapsStore": "0;0;120;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;1;85;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "GearEffectContainerShift E": {
+            "All": {
+              "MapsStore": "0;1;100;|1;1;100;|2;1;100;|3;1;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "WheelsSlipContainerMQB-1 WHEELS SLIP 3": {
+            "Front": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "WheelsSlipContainerWHEELSLIP 2": {
+            "Front": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "RPMContainerMAX RPM": {
+            "All": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "WheelsSlipContainerF/R SLIP No.2": {
+            "Front": {
+              "MapsStore": "0;0;170;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "All": {
+              "MapsStore": "0;1;100;|1;1;100;|2;1;100;|3;1;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "FrontLeft": {
+              "MapsStore": "0;1;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "FrontRight": {
+              "MapsStore": "0;0;100;|1;1;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "RearLeft": {
+              "MapsStore": "0;0;100;|1;0;100;|2;1;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "RearRight": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;1;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "RPMContainerIDLE PEAK 1": {
+            "All": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "WheelsSlipContainerF/R SLIP No.1": {
+            "Front": {
+              "MapsStore": "0;0;170;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "CustomEffectContainer2 L&S - T8 - LB Q10B": {
+            "Front": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "RPMContainerIDLE PEAK 2": {
+            "All": {
+              "MapsStore": "0;0;100;|1;0;130;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "GearEffectContainer2. B": {
+            "All": {
+              "MapsStore": "0;0;100;|1;1;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "RPMContainer3. Mid / High": {
+            "All": {
+              "MapsStore": "0;1;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "WheelsSlipContainerMQB-1 WHEELS SLIP 4": {
+            "Front": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "WheelsSlipContainer": {
+            "Front": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "WheelsSlipContainerMQB-1 WHEELS SLIP 1": {
+            "Front": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "RPMContainerRPM DETAIL": {
+            "All": {
+              "MapsStore": "0;0;100;|1;0;33;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "WheelsRumbleContainerSharp": {
+            "Front": {
+              "MapsStore": "0;0;85;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;1;19;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "RPMContainer2. Low / Mid": {
+            "All": {
+              "MapsStore": "0;1;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "AccelerationGforceContaineraccelerationdeep": {
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "RPMContainerlow idle": {
+            "All": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "WheelsRumbleContainerHeavy": {
+            "Front": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;1;16;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "AccelerationGforceContaineracceleration": {
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "RPMContainer1. General Tone": {
+            "All": {
+              "MapsStore": "0;0;100;|1;0;99;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          }
+        },
+        "GlobalChannelsSettings": {
+          "Quad": {
+            "MapsStore": "0;1;100;Front left|1;1;100;Front right|2;1;100;Rear left|3;1;100;Rear right|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+          },
+          "Custom": {
+            "MapsStore": "0;1;100;|1;1;200;|2;1;100;|3;1;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+          }
+        },
+        "Name": "Speakers (Realtek(R) Audio)",
+        "OutputId": "{0.0.0.00000000}.{dc83e5cb-0847-41d3-8a52-7adae2b020b1}",
+        "ShowPerEffectsLevels": true,
+        "IsFavorite": false
+      },
+      "{0.0.0.00000000}.{b274018a-9759-497b-af21-224d592548d9}": {
+        "ControlVolume": true,
+        "UseLowPassFilter": false,
+        "LowPassFilter": 200,
+        "UseHighPassFilter": false,
+        "HighPassFilter": 20,
+        "IsEnabled": true,
+        "AudioMode": 3,
+        "DeviceType": 0,
+        "EffectToChannelsMapStore": {
+          "SpeedContainer3. C": {
+            "All": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "GearEffectContainer4. D": {
+            "All": {
+              "MapsStore": "0;1;100;|1;1;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "RPMContainerRPM DETAIL 2": {
+            "All": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "RPMContainer28HZ": {
+            "All": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "CustomEffectContainer2 L&S - T5 -MQB-1 BK2": {
+            "Front": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "RPMContainer175HZ PEAK": {
+            "All": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "GearEffectContainerShift D": {
+            "All": {
+              "MapsStore": "0;1;100;|1;1;100;|2;1;100;|3;1;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "SpeedContainer1. A": {
+            "All": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "GearEffectContainer": {
+            "All": {
+              "MapsStore": "0;0;700;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "RPMContainer*AM RPM": {
+            "All": {
+              "MapsStore": "0;0;50;|1;0;200;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "CustomEffectContainer2 L&S - T9 - LB Q10B": {
+            "Front": {
+              "MapsStore": "0;1;500;|1;1;500;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;1;500;|1;1;500;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "GearEffectContainerShift C": {
+            "All": {
+              "MapsStore": "0;1;100;|1;1;100;|2;1;100;|3;1;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "WheelsVibrationContainer2. ML": {
+            "Front": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "RPMContainer4. Peak": {
+            "All": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "CustomEffectContainer2 L&S - T1 - MQB-1 BK2": {
+            "Front": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "RPMContainerPEAK RPM 2": {
+            "All": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "RPMContainerPEAK RPM": {
+            "All": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "SpeedContainer": {
+            "All": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "WheelsLockContainer": {
+            "Front": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "WheelsSlipContainerWHEELSLIP 4": {
+            "Front": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "WheelsSlipContainerMQB-1 WHEELS SLIP 2": {
+            "Front": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "WheelsSlipContainerREAR 4": {
+            "Front": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "WheelsSlipContainerREAR 2": {
+            "Front": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;1;100;|1;1;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "WheelsSlipContainerWHEELSLIP 3": {
+            "Front": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "WheelsSlipContainerREAR 3": {
+            "Front": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "WheelsSlipContainerREAR 1": {
+            "Front": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;1;100;|1;1;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "GearEffectContainerShift A": {
+            "All": {
+              "MapsStore": "0;1;100;|1;1;100;|2;1;100;|3;1;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "CustomEffectContainer2 L&S -T3 - MQB-1 BK2": {
+            "Front": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "GearEffectContainer4. D EARTHQUAKE": {
+            "All": {
+              "MapsStore": "0;1;100;|1;1;100;|2;1;100;|3;1;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "GearEffectContainer3. C": {
+            "All": {
+              "MapsStore": "0;1;100;|1;1;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "CustomEffectContainer2 L&S - T7 - LB MQB-1 BK2": {
+            "Front": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "DecelerationGforceContainerC": {
+            "Front": {
+              "MapsStore": "0;1;100;|1;1;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "GearEffectContainer4. D EQ": {
+            "All": {
+              "MapsStore": "0;0;700;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "WheelsSlipContainerWHEELSLIP 1": {
+            "Front": {
+              "MapsStore": "0;1;200;|1;1;200;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;1;200;|1;1;200;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "SpeedContainer2. B": {
+            "All": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "RPMContainerRPM GREEN 2": {
+            "All": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "RPMContainerRPM 56HZ": {
+            "All": {
+              "MapsStore": "0;0;99;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "DecelerationGforceContainer": {
+            "Front": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "GearEffectContainer5. E": {
+            "All": {
+              "MapsStore": "0;1;100;|1;1;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "GearEffectContainerShift B": {
+            "All": {
+              "MapsStore": "0;1;100;|1;1;100;|2;1;100;|3;1;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "RPMContainerRPM GREEN": {
+            "All": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "AccelerationGforceContaineraccelerationhigh": {
+            "Rear": {
+              "MapsStore": "0;1;100;|1;1;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "WheelsVibrationContainer3. XL": {
+            "Front": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "DecelerationGforceContainerDECELERATION C": {
+            "Front": {
+              "MapsStore": "0;1;100;|1;1;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "DecelerationGforceContainerDECELERATION B": {
+            "Front": {
+              "MapsStore": "0;1;100;|1;1;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "DecelerationGforceContainerDECELERATION A": {
+            "Front": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "WheelsVibrationContainer1. SM": {
+            "Front": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;500;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "WheelsSlipContainerF/R SLIP No.3": {
+            "Front": {
+              "MapsStore": "0;0;500;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;600;|1;0;600;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "GearEffectContainerShift E": {
+            "All": {
+              "MapsStore": "0;1;100;|1;1;100;|2;1;100;|3;1;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "WheelsSlipContainerMQB-1 WHEELS SLIP 3": {
+            "Front": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "WheelsSlipContainerWHEELSLIP 2": {
+            "Front": {
+              "MapsStore": "0;1;350;|1;1;350;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;1;350;|1;1;350;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "RPMContainerMAX RPM": {
+            "All": {
+              "MapsStore": "0;1;100;|1;1;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "WheelsSlipContainerF/R SLIP No.2": {
+            "Front": {
+              "MapsStore": "0;0;300;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;1;300;|1;1;300;|2;0;300;|3;0;300;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "All": {
+              "MapsStore": "0;1;100;|1;1;100;|2;1;100;|3;1;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "FrontLeft": {
+              "MapsStore": "0;1;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "FrontRight": {
+              "MapsStore": "0;0;100;|1;1;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "RearLeft": {
+              "MapsStore": "0;0;100;|1;0;100;|2;1;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "RearRight": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;1;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "RPMContainerIDLE PEAK 1": {
+            "All": {
+              "MapsStore": "0;1;100;|1;1;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "WheelsSlipContainerF/R SLIP No.1": {
+            "Front": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;1;300;|1;1;300;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "CustomEffectContainer2 L&S - T8 - LB Q10B": {
+            "Front": {
+              "MapsStore": "0;1;70;|1;1;70;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;1;70;|1;1;70;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "RPMContainerIDLE PEAK 2": {
+            "All": {
+              "MapsStore": "0;1;100;|1;1;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "GearEffectContainer2. B": {
+            "All": {
+              "MapsStore": "0;0;700;|1;0;700;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "RPMContainer3. Mid / High": {
+            "All": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "WheelsSlipContainerMQB-1 WHEELS SLIP 4": {
+            "Front": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "WheelsSlipContainer": {
+            "Front": {
+              "MapsStore": "0;0;250;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;1;250;|1;1;250;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "WheelsSlipContainerMQB-1 WHEELS SLIP 1": {
+            "Front": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "RPMContainerRPM DETAIL": {
+            "All": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "WheelsRumbleContainerSharp": {
+            "Front": {
+              "MapsStore": "0;0;80;|1;0;1;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;80;|1;0;500;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "RPMContainer2. Low / Mid": {
+            "All": {
+              "MapsStore": "0;0;72;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "AccelerationGforceContaineraccelerationdeep": {
+            "Rear": {
+              "MapsStore": "0;1;100;|1;1;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "RPMContainerlow idle": {
+            "All": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "WheelsRumbleContainerHeavy": {
+            "Front": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;300;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "AccelerationGforceContaineracceleration": {
+            "Rear": {
+              "MapsStore": "0;1;100;|1;1;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "RPMContainer1. General Tone": {
+            "All": {
+              "MapsStore": "0;0;27;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          }
+        },
+        "GlobalChannelsSettings": {
+          "Quad": {
+            "MapsStore": "0;1;100;Front left|1;1;100;Front right|2;1;100;Rear left|3;1;100;Rear right|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+          },
+          "Custom": {
+            "MapsStore": "0;1;100;|1;1;100;|2;1;100;|3;1;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+          }
+        },
+        "Name": "Speakers (USB Audio Device)",
+        "OutputId": "{0.0.0.00000000}.{b274018a-9759-497b-af21-224d592548d9}",
+        "ShowPerEffectsLevels": true,
+        "IsFavorite": false
+      },
+      "{0.0.0.00000000}.{649dfef2-1dd4-44db-a1f3-12323f201a10}": {
+        "ControlVolume": true,
+        "UseLowPassFilter": false,
+        "LowPassFilter": 200,
+        "UseHighPassFilter": false,
+        "HighPassFilter": 20,
+        "IsEnabled": true,
+        "AudioMode": 3,
+        "DeviceType": 0,
+        "EffectToChannelsMapStore": {
+          "SpeedContainer3. C": {
+            "All": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "GearEffectContainer4. D": {
+            "All": {
+              "MapsStore": "0;0;200;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "RPMContainerRPM DETAIL 2": {
+            "All": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "RPMContainer28HZ": {
+            "All": {
+              "MapsStore": "0;1;200;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "CustomEffectContainer2 L&S - T5 -MQB-1 BK2": {
+            "Front": {
+              "MapsStore": "0;1;70;|1;0;345;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "RPMContainer175HZ PEAK": {
+            "All": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "GearEffectContainerShift D": {
+            "All": {
+              "MapsStore": "0;1;100;|1;1;100;|2;1;100;|3;1;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "SpeedContainer1. A": {
+            "All": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "GearEffectContainer": {
+            "All": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "CustomEffectContainer2 L&S - T9 - LB Q10B": {
+            "Front": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "GearEffectContainerShift C": {
+            "All": {
+              "MapsStore": "0;1;100;|1;1;100;|2;1;100;|3;1;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "WheelsVibrationContainer2. ML": {
+            "Front": {
+              "MapsStore": "0;1;300;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "CustomEffectContainer2 L&S - T1 - MQB-1 BK2": {
+            "Front": {
+              "MapsStore": "0;0;105;|1;1;105;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "RPMContainerPEAK RPM 2": {
+            "All": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "RPMContainerPEAK RPM": {
+            "All": {
+              "MapsStore": "0;0;100;|1;1;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "SpeedContainer": {
+            "All": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "WheelsSlipContainerWHEELSLIP 4": {
+            "Front": {
+              "MapsStore": "0;0;150;|1;1;200;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "WheelsSlipContainerMQB-1 WHEELS SLIP 2": {
+            "Front": {
+              "MapsStore": "0;1;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "WheelsSlipContainerREAR 4": {
+            "Front": {
+              "MapsStore": "0;1;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "WheelsSlipContainerREAR 2": {
+            "Front": {
+              "MapsStore": "0;1;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "WheelsSlipContainerWHEELSLIP 3": {
+            "Front": {
+              "MapsStore": "0;0;150;|1;1;200;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "WheelsSlipContainerREAR 3": {
+            "Front": {
+              "MapsStore": "0;1;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "WheelsSlipContainerREAR 1": {
+            "Front": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "GearEffectContainerShift A": {
+            "All": {
+              "MapsStore": "0;1;100;|1;1;100;|2;1;100;|3;1;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "CustomEffectContainer2 L&S -T3 - MQB-1 BK2": {
+            "Front": {
+              "MapsStore": "0;1;50;|1;0;310;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "GearEffectContainer3. C": {
+            "All": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "CustomEffectContainer2 L&S - T7 - LB MQB-1 BK2": {
+            "Front": {
+              "MapsStore": "0;1;50;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "DecelerationGforceContainerC": {
+            "Front": {
+              "MapsStore": "0;1;100;|1;1;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "WheelsSlipContainerWHEELSLIP 1": {
+            "Front": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "SpeedContainer2. B": {
+            "All": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "RPMContainerRPM GREEN 2": {
+            "All": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "RPMContainerRPM 56HZ": {
+            "All": {
+              "MapsStore": "0;1;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "DecelerationGforceContainer": {
+            "Front": {
+              "MapsStore": "0;1;150;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "GearEffectContainer5. E": {
+            "All": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "GearEffectContainerShift B": {
+            "All": {
+              "MapsStore": "0;1;100;|1;1;100;|2;1;100;|3;1;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "RPMContainerRPM GREEN": {
+            "All": {
+              "MapsStore": "0;1;120;|1;0;150;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "AccelerationGforceContaineraccelerationhigh": {
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "WheelsVibrationContainer3. XL": {
+            "Front": {
+              "MapsStore": "0;1;400;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "DecelerationGforceContainerDECELERATION C": {
+            "Front": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "DecelerationGforceContainerDECELERATION B": {
+            "Front": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "DecelerationGforceContainerDECELERATION A": {
+            "Front": {
+              "MapsStore": "0;1;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "WheelsVibrationContainer1. SM": {
+            "Front": {
+              "MapsStore": "0;1;200;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "WheelsSlipContainerF/R SLIP No.3": {
+            "Front": {
+              "MapsStore": "0;1;80;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "GearEffectContainerShift E": {
+            "All": {
+              "MapsStore": "0;1;100;|1;1;100;|2;1;100;|3;1;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "WheelsSlipContainerMQB-1 WHEELS SLIP 3": {
+            "Front": {
+              "MapsStore": "0;1;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "RPMContainerMAX RPM": {
+            "All": {
+              "MapsStore": "0;0;40;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "WheelsSlipContainerF/R SLIP No.2": {
+            "Front": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "WheelsSlipContainerWHEELSLIP 2": {
+            "Front": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "RPMContainerIDLE PEAK 1": {
+            "All": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "WheelsSlipContainerF/R SLIP No.1": {
+            "Front": {
+              "MapsStore": "0;1;100;|1;1;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;100;|2;1;100;|3;1;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "CustomEffectContainer2 L&S - T8 - LB Q10B": {
+            "Front": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "RPMContainerIDLE PEAK 2": {
+            "All": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "GearEffectContainer2. B": {
+            "All": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "WheelsSlipContainerMQB-1 WHEELS SLIP 4": {
+            "Front": {
+              "MapsStore": "0;1;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "WheelsSlipContainer": {
+            "Front": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "WheelsSlipContainerMQB-1 WHEELS SLIP 1": {
+            "Front": {
+              "MapsStore": "0;1;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "RPMContainerRPM DETAIL": {
+            "All": {
+              "MapsStore": "0;0;100;|1;1;260;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "WheelsRumbleContainerSharp": {
+            "Front": {
+              "MapsStore": "0;1;100;|1;0;98;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "AccelerationGforceContaineraccelerationdeep": {
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "RPMContainerlow idle": {
+            "All": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "WheelsRumbleContainerHeavy": {
+            "Front": {
+              "MapsStore": "0;1;70;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "AccelerationGforceContaineracceleration": {
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "RPMContainer1. General Tone": {
+            "All": {
+              "MapsStore": "0;1;190;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          }
+        },
+        "GlobalChannelsSettings": {
+          "Quad": {
+            "MapsStore": "0;1;100;Front left|1;1;100;Front right|2;1;100;Rear left|3;1;100;Rear right|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+          },
+          "Custom": {
+            "MapsStore": "0;1;100;MQB1|1;1;100;TST209|2;1;100;|3;1;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+          }
+        },
+        "Name": "MQB-1 NX3000D (USB PnP Audio Device)",
+        "OutputId": "{0.0.0.00000000}.{649dfef2-1dd4-44db-a1f3-12323f201a10}",
+        "ShowPerEffectsLevels": true,
+        "IsFavorite": false
+      },
+      "{0.0.0.00000000}.{f9015f97-eb12-464a-a687-5ea6342e6241}": {
+        "ControlVolume": true,
+        "UseLowPassFilter": false,
+        "LowPassFilter": 200,
+        "UseHighPassFilter": false,
+        "HighPassFilter": 20,
+        "IsEnabled": false,
+        "AudioMode": 2,
+        "DeviceType": 0,
+        "EffectToChannelsMapStore": {},
+        "GlobalChannelsSettings": {},
+        "Name": "Headphones (nuraphone 958)",
+        "OutputId": "{0.0.0.00000000}.{f9015f97-eb12-464a-a687-5ea6342e6241}",
+        "ShowPerEffectsLevels": false,
+        "IsFavorite": false
+      },
+      "{0.0.0.00000000}.{be1c5ccc-f50c-47ca-b270-781e33a00413}": {
+        "ControlVolume": true,
+        "UseLowPassFilter": false,
+        "LowPassFilter": 200,
+        "UseHighPassFilter": false,
+        "HighPassFilter": 20,
+        "IsEnabled": false,
+        "AudioMode": 2,
+        "DeviceType": 0,
+        "EffectToChannelsMapStore": {},
+        "GlobalChannelsSettings": {},
+        "Name": "LG TV (NVIDIA High Definition Audio)",
+        "OutputId": "{0.0.0.00000000}.{be1c5ccc-f50c-47ca-b270-781e33a00413}",
+        "ShowPerEffectsLevels": false,
+        "IsFavorite": false
+      },
+      "{0.0.0.00000000}.{7a06f317-6d26-4b9d-955e-d3f7854fb808}": {
+        "ControlVolume": true,
+        "UseLowPassFilter": false,
+        "LowPassFilter": 200,
+        "UseHighPassFilter": false,
+        "HighPassFilter": 20,
+        "IsEnabled": true,
+        "AudioMode": 3,
+        "DeviceType": 0,
+        "EffectToChannelsMapStore": {
+          "RPMContainerRPM DETAIL 3": {
+            "All": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "SpeedContainer3. C": {
+            "All": {
+              "MapsStore": "0;1;100;|1;1;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "GearEffectContainer4. D": {
+            "All": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "RPMContainerRPM DETAIL 2": {
+            "All": {
+              "MapsStore": "0;1;200;|1;0;350;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "CustomEffectContainerLOAD1 (MB)": {
+            "Front": {
+              "MapsStore": "0;1;100;|1;1;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;100;|2;1;100;|3;1;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "CustomEffectContainer(A) CNR LOAD (X-LOW BASS)": {
+            "All": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "CustomEffectContainer2 L&S - T5 -MQB-1 BK2": {
+            "Front": {
+              "MapsStore": "0;1;450;|1;0;500;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "SpeedContainer1. A": {
+            "All": {
+              "MapsStore": "0;1;100;|1;1;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "GearEffectContainer": {
+            "All": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "CustomEffectContainer2 L&S - T9 - LB Q10B": {
+            "Front": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "WheelsVibrationContainerSMALL-MED": {
+            "Front": {
+              "MapsStore": "0;0;100;|1;1;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "CustomEffectContainerLOAD-2 (MB)": {
+            "Front": {
+              "MapsStore": "0;1;100;|1;1;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;100;|2;1;100;|3;1;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "CustomEffectContainer2 L&S - T1 - MQB-1 BK2": {
+            "Front": {
+              "MapsStore": "0;1;140;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "RPMContainerPEAK RPM 2": {
+            "All": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "RPMContainerPEAK RPM": {
+            "All": {
+              "MapsStore": "0;0;100;|1;1;250;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "CustomEffectContainerLOAD-6 (LB)": {
+            "Front": {
+              "MapsStore": "0;1;100;|1;1;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;100;|2;1;100;|3;1;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "CustomEffectContainerLOAD-1 (MB)": {
+            "Front": {
+              "MapsStore": "0;1;100;|1;1;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;100;|2;1;100;|3;1;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "CustomEffectContainerLOAD-4 (LB)": {
+            "Front": {
+              "MapsStore": "0;1;100;|1;1;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;100;|2;1;100;|3;1;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "WheelsSlipContainerWHEELSLIP 4": {
+            "Front": {
+              "MapsStore": "0;0;150;|1;1;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "WheelsSlipContainerWHEELSLIP 3": {
+            "Front": {
+              "MapsStore": "0;0;150;|1;1;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "CustomEffectContainer(B) CNR LOAD (X-LOW BASS)": {
+            "All": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "CustomEffectContainer2 L&S -T3 - MQB-1 BK2": {
+            "Front": {
+              "MapsStore": "0;1;273;|1;0;273;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "CustomEffectContainerLOAD-5 (LB)": {
+            "Front": {
+              "MapsStore": "0;1;100;|1;1;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;100;|2;1;100;|3;1;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "GearEffectContainer3. C": {
+            "All": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "CustomEffectContainer2 L&S - T7 - LB MQB-1 BK2": {
+            "Front": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "CustomEffectContainerLOAD2 (MB)": {
+            "Front": {
+              "MapsStore": "0;1;100;|1;1;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;100;|2;1;100;|3;1;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "CustomEffectContainer(C) CNR LOAD (X-LOW BASS)": {
+            "All": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "CustomEffectContainer(D) CNR LOAD (MID BASS)": {
+            "All": {
+              "MapsStore": "0;1;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "CustomEffectContainer(E) CNR LOAD (MID BASS)": {
+            "All": {
+              "MapsStore": "0;0;100;|1;1;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "WheelsSlipContainerWHEELSLIP 1": {
+            "Front": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "SpeedContainer2. B": {
+            "All": {
+              "MapsStore": "0;1;100;|1;1;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "WheelsVibrationContainerXLARGE": {
+            "Front": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "RPMContainerRPM GREEN 2": {
+            "All": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "GearEffectContainer5. E": {
+            "All": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "WheelsVibrationContainerMED-LARGE": {
+            "Front": {
+              "MapsStore": "0;0;100;|1;1;300;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "RPMContainerRPM GREEN": {
+            "All": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "AccelerationGforceContaineraccelerationhigh": {
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "RPMContainerRPM GREEN 3": {
+            "All": {
+              "MapsStore": "0;0;100;|1;1;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "DecelerationGforceContainerDECELERATION C": {
+            "Front": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "DecelerationGforceContainerDECELERATION B": {
+            "Front": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "DecelerationGforceContainerDECELERATION A": {
+            "Front": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "CustomEffectContainerLOAD 1 (MB)": {
+            "Front": {
+              "MapsStore": "0;1;100;|1;1;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;100;|2;1;100;|3;1;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "RPMContainerMAX RPM": {
+            "All": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "WheelsSlipContainerWHEELSLIP 2": {
+            "Front": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "RPMContainerIDLE PEAK 1": {
+            "All": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "CustomEffectContainer2 L&S - T8 - LB Q10B": {
+            "Front": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "RPMContainerIDLE PEAK 2": {
+            "All": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "GearEffectContainer2. B": {
+            "All": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "RPMContainerMAX RPM Q10B": {
+            "All": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "RPMContainerRPM DETAIL": {
+            "All": {
+              "MapsStore": "0;0;250;|1;0;250;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "WheelsRumbleContainerSharp": {
+            "Front": {
+              "MapsStore": "0;1;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "AccelerationGforceContaineraccelerationdeep": {
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "WheelsRumbleContainerHeavy": {
+            "Front": {
+              "MapsStore": "0;1;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "CustomEffectContainerLOAD-3 (MB)": {
+            "Front": {
+              "MapsStore": "0;1;100;|1;1;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;100;|2;1;100;|3;1;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          }
+        },
+        "GlobalChannelsSettings": {
+          "Quad": {
+            "MapsStore": "0;1;100;Front left|1;1;100;Front right|2;1;100;Rear left|3;1;100;Rear right|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+          },
+          "Custom": {
+            "MapsStore": "0;1;100;MQB-1|1;1;100;TST209|2;1;100;|3;1;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+          }
+        },
+        "Name": "MQB-1 & TST209 (USB PnP Audio Device)",
+        "OutputId": "{0.0.0.00000000}.{7a06f317-6d26-4b9d-955e-d3f7854fb808}",
+        "ShowPerEffectsLevels": true,
+        "IsFavorite": false
+      },
+      "{0.0.0.00000000}.{d5933f14-980b-42da-a1b6-b417de63a334}": {
+        "ControlVolume": true,
+        "UseLowPassFilter": false,
+        "LowPassFilter": 200,
+        "UseHighPassFilter": false,
+        "HighPassFilter": 20,
+        "IsEnabled": false,
+        "AudioMode": 2,
+        "DeviceType": 0,
+        "EffectToChannelsMapStore": {},
+        "GlobalChannelsSettings": {
+          "Quad": {
+            "MapsStore": "0;1;100;Front left|1;1;100;Front right|2;1;100;Rear left|3;1;100;Rear right|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+          }
+        },
+        "Name": "Realtek Digital Output (Realtek(R) Audio)",
+        "OutputId": "{0.0.0.00000000}.{d5933f14-980b-42da-a1b6-b417de63a334}",
+        "ShowPerEffectsLevels": false,
+        "IsFavorite": false
+      },
+      "{0.0.0.00000000}.{46dd1d0e-4901-4e9b-bc5e-96df91095c0c}": {
+        "ControlVolume": true,
+        "UseLowPassFilter": false,
+        "LowPassFilter": 200,
+        "UseHighPassFilter": false,
+        "HighPassFilter": 20,
+        "IsEnabled": true,
+        "AudioMode": 3,
+        "DeviceType": 0,
+        "EffectToChannelsMapStore": {
+          "RPMContainerRPM DETAIL 3": {
+            "All": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "SpeedContainer3. C": {
+            "All": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "GearEffectContainer4. D": {
+            "All": {
+              "MapsStore": "0;1;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "RPMContainerRPM DETAIL 2": {
+            "All": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "CustomEffectContainerLOAD1 (MB)": {
+            "Front": {
+              "MapsStore": "0;1;100;|1;1;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;100;|2;1;100;|3;1;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "CustomEffectContainer(A) CNR LOAD (X-LOW BASS)": {
+            "All": {
+              "MapsStore": "0;1;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "CustomEffectContainer2 L&S - T5 -MQB-1 BK2": {
+            "Front": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;150;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "SpeedContainer1. A": {
+            "All": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;99;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "GearEffectContainer": {
+            "All": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "CustomEffectContainer2 L&S - T9 - LB Q10B": {
+            "Front": {
+              "MapsStore": "0;0;100;|1;1;650;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;650;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "WheelsVibrationContainerSMALL-MED": {
+            "Front": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "CustomEffectContainerLOAD-2 (MB)": {
+            "Front": {
+              "MapsStore": "0;1;100;|1;1;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;100;|2;1;100;|3;1;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "CustomEffectContainer2 L&S - T1 - MQB-1 BK2": {
+            "Front": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;120;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "RPMContainerPEAK RPM 2": {
+            "All": {
+              "MapsStore": "0;0;100;|1;0;130;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "RPMContainerPEAK RPM": {
+            "All": {
+              "MapsStore": "0;0;100;|1;0;200;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "CustomEffectContainerLOAD-6 (LB)": {
+            "Front": {
+              "MapsStore": "0;1;100;|1;1;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;100;|2;1;100;|3;1;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "CustomEffectContainerLOAD-1 (MB)": {
+            "Front": {
+              "MapsStore": "0;1;100;|1;1;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;100;|2;1;100;|3;1;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "CustomEffectContainerLOAD-4 (LB)": {
+            "Front": {
+              "MapsStore": "0;1;100;|1;1;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;100;|2;1;100;|3;1;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "WheelsSlipContainerWHEELSLIP 4": {
+            "Front": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;80;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "WheelsSlipContainerWHEELSLIP 3": {
+            "Front": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;80;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "CustomEffectContainer(B) CNR LOAD (X-LOW BASS)": {
+            "All": {
+              "MapsStore": "0;1;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "CustomEffectContainer2 L&S -T3 - MQB-1 BK2": {
+            "Front": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;165;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "CustomEffectContainerLOAD-5 (LB)": {
+            "Front": {
+              "MapsStore": "0;1;100;|1;1;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;100;|2;1;100;|3;1;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "GearEffectContainer3. C": {
+            "All": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;99;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "CustomEffectContainer2 L&S - T7 - LB MQB-1 BK2": {
+            "Front": {
+              "MapsStore": "0;0;513;|1;1;564;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;564;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "CustomEffectContainerLOAD2 (MB)": {
+            "Front": {
+              "MapsStore": "0;1;100;|1;1;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;100;|2;1;100;|3;1;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "CustomEffectContainer(C) CNR LOAD (X-LOW BASS)": {
+            "All": {
+              "MapsStore": "0;1;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "CustomEffectContainer(D) CNR LOAD (MID BASS)": {
+            "All": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "CustomEffectContainer(E) CNR LOAD (MID BASS)": {
+            "All": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "WheelsSlipContainerWHEELSLIP 1": {
+            "Front": {
+              "MapsStore": "0;0;100;|1;1;150;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;80;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "SpeedContainer2. B": {
+            "All": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "WheelsVibrationContainerXLARGE": {
+            "Front": {
+              "MapsStore": "0;0;100;|1;1;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "RPMContainerRPM GREEN 2": {
+            "All": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "GearEffectContainer5. E": {
+            "All": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "WheelsVibrationContainerMED-LARGE": {
+            "Front": {
+              "MapsStore": "0;0;100;|1;1;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "RPMContainerRPM GREEN": {
+            "All": {
+              "MapsStore": "0;0;100;|1;1;230;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "AccelerationGforceContaineraccelerationhigh": {
+            "Rear": {
+              "MapsStore": "0;0;100;|1;1;70;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "RPMContainerRPM GREEN 3": {
+            "All": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "DecelerationGforceContainerDECELERATION C": {
+            "Front": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "DecelerationGforceContainerDECELERATION B": {
+            "Front": {
+              "MapsStore": "0;0;100;|1;1;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "DecelerationGforceContainerDECELERATION A": {
+            "Front": {
+              "MapsStore": "0;0;100;|1;1;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "CustomEffectContainerLOAD 1 (MB)": {
+            "Front": {
+              "MapsStore": "0;1;100;|1;1;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;100;|2;1;100;|3;1;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "RPMContainerMAX RPM": {
+            "All": {
+              "MapsStore": "0;0;70;|1;1;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "WheelsSlipContainerWHEELSLIP 2": {
+            "Front": {
+              "MapsStore": "0;0;100;|1;1;130;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;60;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "RPMContainerIDLE PEAK 1": {
+            "All": {
+              "MapsStore": "0;0;100;|1;1;130;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "CustomEffectContainer2 L&S - T8 - LB Q10B": {
+            "Front": {
+              "MapsStore": "0;0;100;|1;1;627;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;627;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "RPMContainerIDLE PEAK 2": {
+            "All": {
+              "MapsStore": "0;0;100;|1;1;130;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "GearEffectContainer2. B": {
+            "All": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "RPMContainerMAX RPM Q10B": {
+            "All": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "RPMContainerRPM DETAIL": {
+            "All": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "WheelsRumbleContainerSharp": {
+            "Front": {
+              "MapsStore": "0;0;100;|1;1;200;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;50;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "AccelerationGforceContaineraccelerationdeep": {
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "WheelsRumbleContainerHeavy": {
+            "Front": {
+              "MapsStore": "0;0;100;|1;1;200;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;50;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "CustomEffectContainerLOAD-3 (MB)": {
+            "Front": {
+              "MapsStore": "0;1;100;|1;1;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;100;|2;1;100;|3;1;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          }
+        },
+        "GlobalChannelsSettings": {
+          "Quad": {
+            "MapsStore": "0;1;100;Front left|1;1;100;Front right|2;1;100;Rear left|3;1;100;Rear right|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+          },
+          "Custom": {
+            "MapsStore": "0;1;100;Q10B|1;1;100;BKConcert|2;1;100;|3;1;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+          }
+        },
+        "Name": "BKConcert (Realtek(R) Audio)",
+        "OutputId": "{0.0.0.00000000}.{46dd1d0e-4901-4e9b-bc5e-96df91095c0c}",
+        "ShowPerEffectsLevels": true,
+        "IsFavorite": false
+      },
+      "{0.0.0.00000000}.{e40ea203-681e-4a90-9496-6a7710d964e6}": {
+        "ControlVolume": true,
+        "UseLowPassFilter": false,
+        "LowPassFilter": 200,
+        "UseHighPassFilter": false,
+        "HighPassFilter": 20,
+        "IsEnabled": true,
+        "AudioMode": 3,
+        "DeviceType": 0,
+        "EffectToChannelsMapStore": {
+          "RPMContainerRPM DETAIL 3": {
+            "All": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "GearEffectContainer4. D": {
+            "All": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "RPMContainerRPM DETAIL 2": {
+            "All": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "CustomEffectContainerLOAD1 (MB)": {
+            "Front": {
+              "MapsStore": "0;1;100;|1;1;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;100;|2;1;100;|3;1;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "CustomEffectContainer(A) CNR LOAD (X-LOW BASS)": {
+            "All": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "CustomEffectContainer2 L&S - T5 -MQB-1 BK2": {
+            "Front": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;1;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "GearEffectContainer": {
+            "All": {
+              "MapsStore": "0;1;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "CustomEffectContainer2 L&S - T9 - LB Q10B": {
+            "Front": {
+              "MapsStore": "0;0;900;|1;0;900;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;900;|1;0;900;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "WheelsVibrationContainerSMALL-MED": {
+            "Front": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;1;50;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "CustomEffectContainerLOAD-2 (MB)": {
+            "Front": {
+              "MapsStore": "0;1;100;|1;1;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;100;|2;1;100;|3;1;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "CustomEffectContainer2 L&S - T1 - MQB-1 BK2": {
+            "Front": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;1;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "RPMContainerPEAK RPM 2": {
+            "All": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "RPMContainerPEAK RPM": {
+            "All": {
+              "MapsStore": "0;1;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "CustomEffectContainerLOAD-6 (LB)": {
+            "Front": {
+              "MapsStore": "0;1;100;|1;1;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;100;|2;1;100;|3;1;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "CustomEffectContainerLOAD-1 (MB)": {
+            "Front": {
+              "MapsStore": "0;1;100;|1;1;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;100;|2;1;100;|3;1;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "CustomEffectContainerLOAD-4 (LB)": {
+            "Front": {
+              "MapsStore": "0;1;100;|1;1;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;100;|2;1;100;|3;1;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "WheelsSlipContainerWHEELSLIP 4": {
+            "Front": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;1;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "WheelsSlipContainerWHEELSLIP 3": {
+            "Front": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;1;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "CustomEffectContainer(B) CNR LOAD (X-LOW BASS)": {
+            "All": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "CustomEffectContainer2 L&S -T3 - MQB-1 BK2": {
+            "Front": {
+              "MapsStore": "0;0;100;|1;0;260;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;1;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "CustomEffectContainerLOAD-5 (LB)": {
+            "Front": {
+              "MapsStore": "0;1;100;|1;1;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;100;|2;1;100;|3;1;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "GearEffectContainer3. C": {
+            "All": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "CustomEffectContainer2 L&S - T7 - LB MQB-1 BK2": {
+            "Front": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "CustomEffectContainerLOAD2 (MB)": {
+            "Front": {
+              "MapsStore": "0;1;100;|1;1;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;100;|2;1;100;|3;1;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "CustomEffectContainer(C) CNR LOAD (X-LOW BASS)": {
+            "All": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "CustomEffectContainer(D) CNR LOAD (MID BASS)": {
+            "All": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "CustomEffectContainer(E) CNR LOAD (MID BASS)": {
+            "All": {
+              "MapsStore": "0;1;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "WheelsSlipContainerWHEELSLIP 1": {
+            "Front": {
+              "MapsStore": "0;0;150;|1;0;150;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;150;|1;0;150;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "WheelsVibrationContainerXLARGE": {
+            "Front": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "RPMContainerRPM GREEN 2": {
+            "All": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "GearEffectContainer5. E": {
+            "All": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "WheelsVibrationContainerMED-LARGE": {
+            "Front": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;1;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "RPMContainerRPM GREEN": {
+            "All": {
+              "MapsStore": "0;0;30;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "AccelerationGforceContaineraccelerationhigh": {
+            "Rear": {
+              "MapsStore": "0;0;110;|1;0;110;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "RPMContainerRPM GREEN 3": {
+            "All": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "DecelerationGforceContainerDECELERATION C": {
+            "Front": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "DecelerationGforceContainerDECELERATION B": {
+            "Front": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "DecelerationGforceContainerDECELERATION A": {
+            "Front": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "CustomEffectContainerLOAD 1 (MB)": {
+            "Front": {
+              "MapsStore": "0;1;100;|1;1;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;100;|2;1;100;|3;1;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "RPMContainerMAX RPM": {
+            "All": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "WheelsSlipContainerWHEELSLIP 2": {
+            "Front": {
+              "MapsStore": "0;0;150;|1;0;150;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;150;|1;0;150;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "RPMContainerIDLE PEAK 1": {
+            "All": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "CustomEffectContainer2 L&S - T8 - LB Q10B": {
+            "Front": {
+              "MapsStore": "0;0;500;|1;0;500;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;500;|1;0;500;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "RPMContainerIDLE PEAK 2": {
+            "All": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "GearEffectContainer2. B": {
+            "All": {
+              "MapsStore": "0;1;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "RPMContainerMAX RPM Q10B": {
+            "All": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "RPMContainerRPM DETAIL": {
+            "All": {
+              "MapsStore": "0;1;87;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "WheelsRumbleContainerSharp": {
+            "Front": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;40;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "AccelerationGforceContaineraccelerationdeep": {
+            "Rear": {
+              "MapsStore": "0;0;110;|1;0;110;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "WheelsRumbleContainerHeavy": {
+            "Front": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;1;70;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "CustomEffectContainerLOAD-3 (MB)": {
+            "Front": {
+              "MapsStore": "0;1;100;|1;1;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;100;|2;1;100;|3;1;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          }
+        },
+        "GlobalChannelsSettings": {
+          "Mono": {
+            "MapsStore": "0;1;100;Left (mono)|1;1;100;Right (mono)|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+          },
+          "Quad": {
+            "MapsStore": "0;1;100;Front left|1;1;100;Front right|2;1;100;Rear left|3;1;100;Rear right|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+          },
+          "Custom": {
+            "MapsStore": "0;1;100;BKG2|1;1;100;|2;1;100;|3;1;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+          },
+          "StereoFR": {
+            "MapsStore": "0;1;100;Front|1;1;100;Rear|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+          }
+        },
+        "Name": "BK Gamer 2 (USB Audio Device)",
+        "OutputId": "{0.0.0.00000000}.{e40ea203-681e-4a90-9496-6a7710d964e6}",
+        "ShowPerEffectsLevels": true,
+        "IsFavorite": false
+      },
+      "{0.0.0.00000000}.{e2865ee5-8230-42bc-89ec-f6e30d7f49f0}": {
+        "ControlVolume": true,
+        "UseLowPassFilter": false,
+        "LowPassFilter": 200,
+        "UseHighPassFilter": false,
+        "HighPassFilter": 20,
+        "IsEnabled": false,
+        "AudioMode": 2,
+        "DeviceType": 0,
+        "EffectToChannelsMapStore": {},
+        "GlobalChannelsSettings": {},
+        "Name": "Headset Earphone (Corsair VOID Wireless Gaming Dongle)",
+        "OutputId": "{0.0.0.00000000}.{e2865ee5-8230-42bc-89ec-f6e30d7f49f0}",
+        "ShowPerEffectsLevels": false,
+        "IsFavorite": false
+      },
+      "{0.0.0.00000000}.{d97c07bd-abed-4d06-9ccf-771afcbf3777}": {
+        "ControlVolume": true,
+        "UseLowPassFilter": false,
+        "LowPassFilter": 200,
+        "UseHighPassFilter": false,
+        "HighPassFilter": 20,
+        "IsEnabled": true,
+        "AudioMode": 3,
+        "DeviceType": 0,
+        "EffectToChannelsMapStore": {
+          "WheelsSlipContainerWHEELSLIP 3": {
+            "Front": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "RPMContainerRPM DETAIL 3": {
+            "All": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "WheelsRumbleContainerSharp": {
+            "Front": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "CustomEffectContainer2 L&S - T1 - MQB-1 BK2": {
+            "Front": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "CustomEffectContainerLOAD-2 (MB)": {
+            "Front": {
+              "MapsStore": "0;1;100;|1;1;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;100;|2;1;100;|3;1;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "RPMContainerIDLE PEAK 1": {
+            "All": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "RPMContainerRPM DETAIL": {
+            "All": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "AccelerationGforceContaineraccelerationdeep": {
+            "Rear": {
+              "MapsStore": "0;1;130;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "GearEffectContainer3. C": {
+            "All": {
+              "MapsStore": "0;1;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "WheelsVibrationContainerMED-LARGE": {
+            "Front": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "CustomEffectContainerLOAD2 (MB)": {
+            "Front": {
+              "MapsStore": "0;1;100;|1;1;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;100;|2;1;100;|3;1;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "GearEffectContainer2. B": {
+            "All": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "CustomEffectContainerLOAD-5 (LB)": {
+            "Front": {
+              "MapsStore": "0;1;100;|1;1;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;100;|2;1;100;|3;1;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "CustomEffectContainer(C) CNR LOAD (X-LOW BASS)": {
+            "All": {
+              "MapsStore": "0;1;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "CustomEffectContainer(B) CNR LOAD (X-LOW BASS)": {
+            "All": {
+              "MapsStore": "0;1;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "CustomEffectContainer2 L&S - T9 - LB Q10B": {
+            "Front": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;1;650;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "CustomEffectContainer2 L&S - T8 - LB Q10B": {
+            "Front": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;1;627;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "CustomEffectContainerLOAD1 (MB)": {
+            "Front": {
+              "MapsStore": "0;1;100;|1;1;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;100;|2;1;100;|3;1;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "DecelerationGforceContainerDECELERATION C": {
+            "Front": {
+              "MapsStore": "0;1;140;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "DecelerationGforceContainerDECELERATION B": {
+            "Front": {
+              "MapsStore": "0;0;200;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "DecelerationGforceContainerDECELERATION A": {
+            "Front": {
+              "MapsStore": "0;0;200;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "CustomEffectContainer(E) CNR LOAD (MID BASS)": {
+            "All": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "CustomEffectContainer2 L&S -T3 - MQB-1 BK2": {
+            "Front": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "RPMContainerMAX RPM Q10B": {
+            "All": {
+              "MapsStore": "0;1;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "CustomEffectContainerLOAD-6 (LB)": {
+            "Front": {
+              "MapsStore": "0;1;100;|1;1;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;100;|2;1;100;|3;1;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "RPMContainerRPM GREEN": {
+            "All": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "CustomEffectContainer(A) CNR LOAD (X-LOW BASS)": {
+            "All": {
+              "MapsStore": "0;1;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "CustomEffectContainer(D) CNR LOAD (MID BASS)": {
+            "All": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "WheelsSlipContainerWHEELSLIP 2": {
+            "Front": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;1;130;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "CustomEffectContainerLOAD-4 (LB)": {
+            "Front": {
+              "MapsStore": "0;1;100;|1;1;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;100;|2;1;100;|3;1;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "RPMContainerRPM DETAIL 2": {
+            "All": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "WheelsRumbleContainerHeavy": {
+            "Front": {
+              "MapsStore": "0;0;100;|1;0;98;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "RPMContainerIDLE PEAK 2": {
+            "All": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "WheelsSlipContainerWHEELSLIP 1": {
+            "Front": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;1;130;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "WheelsVibrationContainerXLARGE": {
+            "Front": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;1;200;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "CustomEffectContainerLOAD 1 (MB)": {
+            "Front": {
+              "MapsStore": "0;1;100;|1;1;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;100;|2;1;100;|3;1;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "CustomEffectContainerLOAD-3 (MB)": {
+            "Front": {
+              "MapsStore": "0;1;100;|1;1;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;100;|2;1;100;|3;1;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "AccelerationGforceContaineraccelerationhigh": {
+            "Rear": {
+              "MapsStore": "0;1;130;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "RPMContainerPEAK RPM": {
+            "All": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "WheelsSlipContainerWHEELSLIP 4": {
+            "Front": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "CustomEffectContainer2 L&S - T7 - LB MQB-1 BK2": {
+            "Front": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;1;564;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "CustomEffectContainerLOAD-1 (MB)": {
+            "Front": {
+              "MapsStore": "0;1;100;|1;1;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;100;|2;1;100;|3;1;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "GearEffectContainer": {
+            "All": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "WheelsVibrationContainerSMALL-MED": {
+            "Front": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "RPMContainerMAX RPM": {
+            "All": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          },
+          "CustomEffectContainer2 L&S - T5 -MQB-1 BK2": {
+            "Front": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            },
+            "Rear": {
+              "MapsStore": "0;0;100;|1;0;100;|2;0;100;|3;0;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+            }
+          }
+        },
+        "GlobalChannelsSettings": {
+          "Quad": {
+            "MapsStore": "0;1;100;Front left|1;1;100;Front right|2;1;100;Rear left|3;1;100;Rear right|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+          },
+          "Custom": {
+            "MapsStore": "0;1;100;Q10B|1;1;100;|2;1;100;|3;1;100;|4;0;100;|5;0;100;|6;0;100;|7;0;100;"
+          }
+        },
+        "Name": "Q10B (Sound BlasterX G6)",
+        "OutputId": "{0.0.0.00000000}.{d97c07bd-abed-4d06-9ccf-771afcbf3777}",
+        "ShowPerEffectsLevels": true,
+        "IsFavorite": false
+      }
+    },
+    "OutputMode": 1,
+    "TypeName": "SoundOutputManager"
+  },
+  "IncludeOutputSettingsInProfile": true,
+  "UnmuteEffectsAfterSimhubRestart": true,
+  "AutomaticSwitch": false,
+  "Description": "LOAD & SLIP (Front/Rear)\r\n\r\nUsing MQB1, BKG2 and TST209 for Mid Bass Front and Rear\r\nUsing BKC and Q10B for Low Bass Front and Rear\r\n\r\nI set gain in output as stated in each effects description.  \r\nEffect and group columes at 100%\r\nSimhub volume is 50% and NX3000D dials at 2oclock",
+  "EffectsContainers": [
+    {
+      "EffectsContainers": [
+        {
+          "EffectsContainers": [
+            {
+              "AutocalibrationMax": 95.0,
+              "Filter": {
+                "GammaValue": 1.0,
+                "InputGain": 105.0,
+                "MinimumForce": 0,
+                "Threshold": 1,
+                "FilterType": "GammaFilter"
+              },
+              "FrontLeftFormula": {
+                "Interpreter": 1,
+                "Expression": "// left front loaded slip\r\nvar d = $prop('ShakeITBSV3Plugin.Export.proxy_G.FrontRight');\r\nd -= $prop('ShakeITBSV3Plugin.Export.proxy_G.RearRight');\r\n// left load (turning right)\r\nvar L = $prop('ShakeITBSV3Plugin.Export.proxy_G.FrontLeft');\r\nL -= $prop('ShakeITBSV3Plugin.Export.proxy_G.RearLeft');\r\n// d, L range -100 to 100; max magnitude 100*sqrt(2)\r\n// if G are 0, then no load shift and each corner gets 0.25 G\r\nL = 25 + 25 * L / 100;\t// left-right load distribution\r\nL += (L * d / 100);\t\t// fore-aft load distribution\r\n// corner slip\r\ns = $prop('GameRawData.Physics.WheelSlip01');\r\n// condition slip\r\ns = 20 * Math.log(1 + s) - 5;\r\n// weight slip by load\r\nreturn s *  L / 100; \r\n\r\n"
+              },
+              "FrontRightFormula": {
+                "Interpreter": 1,
+                "Expression": "// deceleration @ front right\r\nvar d = $prop('ShakeITBSV3Plugin.Export.proxy_G.FrontRight');\r\nd -= $prop('ShakeITBSV3Plugin.Export.proxy_G.RearRight');\r\n// right force (turning left)\r\nvar L = - $prop('ShakeITBSV3Plugin.Export.proxy_G.FrontLeft');\r\nL += $prop('ShakeITBSV3Plugin.Export.proxy_G.RearLeft');\r\n// d, L range -100 to 100; max magnitude 100*sqrt(2)\r\n// for 0 acceleeration, no shift and each corner gets 0.25 G\r\nL = 25 + 25 * L / 100;\t// distribute right - left\r\nL += (L * d / 100);\t\t\t// distribute fore - aft\r\n// slip\r\ns = $prop('GameRawData.Physics.WheelSlip02');\r\n// condition slip\r\ns = 20 * Math.log(1 + s) - 5;\r\n// weight slip by load (abs max 100);\r\nreturn s * L / 100;"
+              },
+              "RearLeftFormula": {
+                "Interpreter": 1,
+                "Expression": "// acceleration @ left rear\r\nvar d = - $prop('ShakeITBSV3Plugin.Export.proxy_G.FrontRight');\r\nd += $prop('ShakeITBSV3Plugin.Export.proxy_G.RearRight');\r\n// left force (turning right)\r\nvar L = $prop('ShakeITBSV3Plugin.Export.proxy_G.FrontLeft');\r\nL -= $prop('ShakeITBSV3Plugin.Export.proxy_G.RearLeft');\r\n// d, L range -100 to 100; max magnitude 100*sqrt(2)\r\n// no load shift for 0 acceleration; each corner gets 0.25 G\r\nvar L = 25 + 25 * L / 100;\t// left-right distribution\r\nL += (L * d / 100);\t\t// distribute aft-fore\r\n// corner slip\r\nvar s = $prop('GameRawData.Physics.WheelSlip03');\r\n// condition slip\r\ns = 20 * Math.log(1 + s) - 5;\r\n// weight slip by load\r\nreturn s *  L / 100; "
+              },
+              "RearRightFormula": {
+                "Interpreter": 1,
+                "Expression": "// acceleration @ right rear\r\nvar d = - $prop('ShakeITBSV3Plugin.Export.proxy_G.FrontRight');\r\nd += $prop('ShakeITBSV3Plugin.Export.proxy_G.RearRight');\r\n// right load (turning left)\r\nvar L = - $prop('ShakeITBSV3Plugin.Export.proxy_G.FrontLeft');\r\nL += $prop('ShakeITBSV3Plugin.Export.proxy_G.RearLeft');\r\n// d, L range -100 to 100; max magnitude 100*sqrt(2)\r\n// if no accelerations, then no shift and each corner gets 0.25 G\r\nL = 25 + 25 * L / 100;\t\t// distribute load rith - left\r\nL += (L * d / 100);\t\t\t// distribute load aft - fore\r\n// corner slip\r\ns = $prop('GameRawData.Physics.WheelSlip04');\r\n// condition slip\r\ns = 20 * Math.log(1 + s) - 5;\r\n// weight slip by load (abs max 100);\r\nreturn s * L / 100;"
+              },
+              "ContainerId": "9e7a246b-8c4b-454f-b07d-3e41a7f43605",
+              "ContainerType": "CustomEffectContainer",
+              "Description": "1 - GAIN 105",
+              "AggregationMode": "Front/Rear",
+              "Gain": 100.0,
+              "IsEnabled": true,
+              "Output": {
+                "UsePrehemptiveMode": false,
+                "Frequency": 65,
+                "UseHighFrequency": true,
+                "HighFrequency": 55,
+                "WhiteNoise": 54,
+                "UseWhiteNoise": false,
+                "EnableDurationModulation": true,
+                "DurationModulationValue": 34,
+                "FrequencyBasedOnPreFilter": false,
+                "Harmonics": 0,
+                "HoldMode": 1,
+                "DelayEnabled": false,
+                "AssignToChannelGroup": true,
+                "ChannelGroupName": "LOAD-1 (MB)",
+                "PropertyName": null,
+                "ExportProperty": false,
+                "DisableOutput": false,
+                "OutputType": "ToneOutput"
+              }
+            },
+            {
+              "AutocalibrationMax": 95.0,
+              "Filter": {
+                "GammaValue": 1.0,
+                "InputGain": 210.0,
+                "MinimumForce": 1,
+                "Threshold": 3,
+                "FilterType": "GammaFilter"
+              },
+              "FrontLeftFormula": {
+                "Interpreter": 1,
+                "Expression": "// left front loaded slip\r\nvar d = $prop('ShakeITBSV3Plugin.Export.proxy_G.FrontRight');\r\nd -= $prop('ShakeITBSV3Plugin.Export.proxy_G.RearRight');\r\n// left load (turning right)\r\nvar L = $prop('ShakeITBSV3Plugin.Export.proxy_G.FrontLeft');\r\nL -= $prop('ShakeITBSV3Plugin.Export.proxy_G.RearLeft');\r\n// d, L range -100 to 100; max magnitude 100*sqrt(2)\r\n// if G are 0, then no load shift and each corner gets 0.25 G\r\nL = 25 + 25 * L / 100;\t// left-right load distribution\r\nL += (L * d / 100);\t\t// fore-aft load distribution\r\n// corner slip\r\ns = $prop('GameRawData.Physics.WheelSlip01');\r\n// condition slip\r\ns = 20 * Math.log(1 + s) - 5;\r\n// weight slip by load\r\nreturn s *  L / 100; \r\n\r\n"
+              },
+              "FrontRightFormula": {
+                "Interpreter": 1,
+                "Expression": "// deceleration @ front right\r\nvar d = $prop('ShakeITBSV3Plugin.Export.proxy_G.FrontRight');\r\nd -= $prop('ShakeITBSV3Plugin.Export.proxy_G.RearRight');\r\n// right force (turning left)\r\nvar L = - $prop('ShakeITBSV3Plugin.Export.proxy_G.FrontLeft');\r\nL += $prop('ShakeITBSV3Plugin.Export.proxy_G.RearLeft');\r\n// d, L range -100 to 100; max magnitude 100*sqrt(2)\r\n// for 0 acceleeration, no shift and each corner gets 0.25 G\r\nL = 25 + 25 * L / 100;\t// distribute right - left\r\nL += (L * d / 100);\t\t\t// distribute fore - aft\r\n// slip\r\ns = $prop('GameRawData.Physics.WheelSlip02');\r\n// condition slip\r\ns = 20 * Math.log(1 + s) - 5;\r\n// weight slip by load (abs max 100);\r\nreturn s * L / 100;"
+              },
+              "RearLeftFormula": {
+                "Interpreter": 1,
+                "Expression": "// acceleration @ left rear\r\nvar d = - $prop('ShakeITBSV3Plugin.Export.proxy_G.FrontRight');\r\nd += $prop('ShakeITBSV3Plugin.Export.proxy_G.RearRight');\r\n// left force (turning right)\r\nvar L = $prop('ShakeITBSV3Plugin.Export.proxy_G.FrontLeft');\r\nL -= $prop('ShakeITBSV3Plugin.Export.proxy_G.RearLeft');\r\n// d, L range -100 to 100; max magnitude 100*sqrt(2)\r\n// no load shift for 0 acceleration; each corner gets 0.25 G\r\nvar L = 25 + 25 * L / 100;\t// left-right distribution\r\nL += (L * d / 100);\t\t// distribute aft-fore\r\n// corner slip\r\nvar s = $prop('GameRawData.Physics.WheelSlip03');\r\n// condition slip\r\ns = 20 * Math.log(1 + s) - 5;\r\n// weight slip by load\r\nreturn s *  L / 100; "
+              },
+              "RearRightFormula": {
+                "Interpreter": 1,
+                "Expression": "// acceleration @ right rear\r\nvar d = - $prop('ShakeITBSV3Plugin.Export.proxy_G.FrontRight');\r\nd += $prop('ShakeITBSV3Plugin.Export.proxy_G.RearRight');\r\n// right load (turning left)\r\nvar L = - $prop('ShakeITBSV3Plugin.Export.proxy_G.FrontLeft');\r\nL += $prop('ShakeITBSV3Plugin.Export.proxy_G.RearLeft');\r\n// d, L range -100 to 100; max magnitude 100*sqrt(2)\r\n// if no accelerations, then no shift and each corner gets 0.25 G\r\nL = 25 + 25 * L / 100;\t\t// distribute load rith - left\r\nL += (L * d / 100);\t\t\t// distribute load aft - fore\r\n// corner slip\r\ns = $prop('GameRawData.Physics.WheelSlip04');\r\n// condition slip\r\ns = 20 * Math.log(1 + s) - 5;\r\n// weight slip by load (abs max 100);\r\nreturn s * L / 100;"
+              },
+              "ContainerId": "ef1c2373-bc2f-4751-9e47-83503149090e",
+              "ContainerType": "CustomEffectContainer",
+              "Description": "2 - GAIN 210",
+              "AggregationMode": "Front/Rear",
+              "Gain": 100.0,
+              "IsEnabled": true,
+              "Output": {
+                "UsePrehemptiveMode": false,
+                "Frequency": 55,
+                "UseHighFrequency": true,
+                "HighFrequency": 45,
+                "WhiteNoise": 54,
+                "UseWhiteNoise": false,
+                "EnableDurationModulation": true,
+                "DurationModulationValue": 34,
+                "FrequencyBasedOnPreFilter": false,
+                "Harmonics": 0,
+                "HoldMode": 1,
+                "DelayEnabled": false,
+                "AssignToChannelGroup": true,
+                "ChannelGroupName": "LOAD-2 (MB)",
+                "PropertyName": null,
+                "ExportProperty": false,
+                "DisableOutput": false,
+                "OutputType": "ToneOutput"
+              }
+            },
+            {
+              "AutocalibrationMax": 95.0,
+              "Filter": {
+                "GammaValue": 1.0,
+                "InputGain": 345.0,
+                "MinimumForce": 1,
+                "Threshold": 5,
+                "FilterType": "GammaFilter"
+              },
+              "FrontLeftFormula": {
+                "Interpreter": 1,
+                "Expression": "// left front loaded slip\r\nvar d = $prop('ShakeITBSV3Plugin.Export.proxy_G.FrontRight');\r\nd -= $prop('ShakeITBSV3Plugin.Export.proxy_G.RearRight');\r\n// left load (turning right)\r\nvar L = $prop('ShakeITBSV3Plugin.Export.proxy_G.FrontLeft');\r\nL -= $prop('ShakeITBSV3Plugin.Export.proxy_G.RearLeft');\r\n// d, L range -100 to 100; max magnitude 100*sqrt(2)\r\n// if G are 0, then no load shift and each corner gets 0.25 G\r\nL = 25 + 25 * L / 100;\t// left-right load distribution\r\nL += (L * d / 100);\t\t// fore-aft load distribution\r\n// corner slip\r\ns = $prop('GameRawData.Physics.WheelSlip01');\r\n// condition slip\r\ns = 20 * Math.log(1 + s) - 5;\r\n// weight slip by load\r\nreturn s *  L / 100; \r\n\r\n"
+              },
+              "FrontRightFormula": {
+                "Interpreter": 1,
+                "Expression": "// deceleration @ front right\r\nvar d = $prop('ShakeITBSV3Plugin.Export.proxy_G.FrontRight');\r\nd -= $prop('ShakeITBSV3Plugin.Export.proxy_G.RearRight');\r\n// right force (turning left)\r\nvar L = - $prop('ShakeITBSV3Plugin.Export.proxy_G.FrontLeft');\r\nL += $prop('ShakeITBSV3Plugin.Export.proxy_G.RearLeft');\r\n// d, L range -100 to 100; max magnitude 100*sqrt(2)\r\n// for 0 acceleeration, no shift and each corner gets 0.25 G\r\nL = 25 + 25 * L / 100;\t// distribute right - left\r\nL += (L * d / 100);\t\t\t// distribute fore - aft\r\n// slip\r\ns = $prop('GameRawData.Physics.WheelSlip02');\r\n// condition slip\r\ns = 20 * Math.log(1 + s) - 5;\r\n// weight slip by load (abs max 100);\r\nreturn s * L / 100;"
+              },
+              "RearLeftFormula": {
+                "Interpreter": 1,
+                "Expression": "// acceleration @ left rear\r\nvar d = - $prop('ShakeITBSV3Plugin.Export.proxy_G.FrontRight');\r\nd += $prop('ShakeITBSV3Plugin.Export.proxy_G.RearRight');\r\n// left force (turning right)\r\nvar L = $prop('ShakeITBSV3Plugin.Export.proxy_G.FrontLeft');\r\nL -= $prop('ShakeITBSV3Plugin.Export.proxy_G.RearLeft');\r\n// d, L range -100 to 100; max magnitude 100*sqrt(2)\r\n// no load shift for 0 acceleration; each corner gets 0.25 G\r\nvar L = 25 + 25 * L / 100;\t// left-right distribution\r\nL += (L * d / 100);\t\t// distribute aft-fore\r\n// corner slip\r\nvar s = $prop('GameRawData.Physics.WheelSlip03');\r\n// condition slip\r\ns = 20 * Math.log(1 + s) - 5;\r\n// weight slip by load\r\nreturn s *  L / 100; "
+              },
+              "RearRightFormula": {
+                "Interpreter": 1,
+                "Expression": "// acceleration @ right rear\r\nvar d = - $prop('ShakeITBSV3Plugin.Export.proxy_G.FrontRight');\r\nd += $prop('ShakeITBSV3Plugin.Export.proxy_G.RearRight');\r\n// right load (turning left)\r\nvar L = - $prop('ShakeITBSV3Plugin.Export.proxy_G.FrontLeft');\r\nL += $prop('ShakeITBSV3Plugin.Export.proxy_G.RearLeft');\r\n// d, L range -100 to 100; max magnitude 100*sqrt(2)\r\n// if no accelerations, then no shift and each corner gets 0.25 G\r\nL = 25 + 25 * L / 100;\t\t// distribute load rith - left\r\nL += (L * d / 100);\t\t\t// distribute load aft - fore\r\n// corner slip\r\ns = $prop('GameRawData.Physics.WheelSlip04');\r\n// condition slip\r\ns = 20 * Math.log(1 + s) - 5;\r\n// weight slip by load (abs max 100);\r\nreturn s * L / 100;"
+              },
+              "ContainerId": "697bb1db-68bc-462e-9e37-34adc40c1bbc",
+              "ContainerType": "CustomEffectContainer",
+              "Description": "3 - GAIN 345",
+              "AggregationMode": "Front/Rear",
+              "Gain": 100.0,
+              "IsEnabled": true,
+              "Output": {
+                "UsePrehemptiveMode": false,
+                "Frequency": 45,
+                "UseHighFrequency": true,
+                "HighFrequency": 35,
+                "WhiteNoise": 54,
+                "UseWhiteNoise": false,
+                "EnableDurationModulation": true,
+                "DurationModulationValue": 34,
+                "FrequencyBasedOnPreFilter": false,
+                "Harmonics": 0,
+                "HoldMode": 1,
+                "DelayEnabled": false,
+                "AssignToChannelGroup": true,
+                "ChannelGroupName": "LOAD-3 (MB)",
+                "PropertyName": null,
+                "ExportProperty": false,
+                "DisableOutput": false,
+                "OutputType": "ToneOutput"
+              }
+            }
+          ],
+          "Filter": null,
+          "ContainerId": "ddadf663-21ea-4f13-a2ff-13759055db69",
+          "ContainerType": "GroupContainer",
+          "Description": "Mid Bass Layers (MQB1 & TST209)",
+          "AggregationMode": null,
+          "Gain": 100.0,
+          "IsEnabled": true,
+          "Output": null
+        },
+        {
+          "EffectsContainers": [
+            {
+              "AutocalibrationMax": 95.0,
+              "Filter": {
+                "GammaValue": 1.0,
+                "InputGain": 430.0,
+                "MinimumForce": 1,
+                "Threshold": 7,
+                "FilterType": "GammaFilter"
+              },
+              "FrontLeftFormula": {
+                "Interpreter": 1,
+                "Expression": "// left front loaded slip\r\nvar d = $prop('ShakeITBSV3Plugin.Export.proxy_G.FrontRight');\r\nd -= $prop('ShakeITBSV3Plugin.Export.proxy_G.RearRight');\r\n// left load (turning right)\r\nvar L = $prop('ShakeITBSV3Plugin.Export.proxy_G.FrontLeft');\r\nL -= $prop('ShakeITBSV3Plugin.Export.proxy_G.RearLeft');\r\n// d, L range -100 to 100; max magnitude 100*sqrt(2)\r\n// if G are 0, then no load shift and each corner gets 0.25 G\r\nL = 25 + 25 * L / 100;\t// left-right load distribution\r\nL += (L * d / 100);\t\t// fore-aft load distribution\r\n// corner slip\r\ns = $prop('GameRawData.Physics.WheelSlip01');\r\n// condition slip\r\ns = 20 * Math.log(1 + s) - 5;\r\n// weight slip by load\r\nreturn s *  L / 100; \r\n\r\n"
+              },
+              "FrontRightFormula": {
+                "Interpreter": 1,
+                "Expression": "// deceleration @ front right\r\nvar d = $prop('ShakeITBSV3Plugin.Export.proxy_G.FrontRight');\r\nd -= $prop('ShakeITBSV3Plugin.Export.proxy_G.RearRight');\r\n// right force (turning left)\r\nvar L = - $prop('ShakeITBSV3Plugin.Export.proxy_G.FrontLeft');\r\nL += $prop('ShakeITBSV3Plugin.Export.proxy_G.RearLeft');\r\n// d, L range -100 to 100; max magnitude 100*sqrt(2)\r\n// for 0 acceleeration, no shift and each corner gets 0.25 G\r\nL = 25 + 25 * L / 100;\t// distribute right - left\r\nL += (L * d / 100);\t\t\t// distribute fore - aft\r\n// slip\r\ns = $prop('GameRawData.Physics.WheelSlip02');\r\n// condition slip\r\ns = 20 * Math.log(1 + s) - 5;\r\n// weight slip by load (abs max 100);\r\nreturn s * L / 100;"
+              },
+              "RearLeftFormula": {
+                "Interpreter": 1,
+                "Expression": "// acceleration @ left rear\r\nvar d = - $prop('ShakeITBSV3Plugin.Export.proxy_G.FrontRight');\r\nd += $prop('ShakeITBSV3Plugin.Export.proxy_G.RearRight');\r\n// left force (turning right)\r\nvar L = $prop('ShakeITBSV3Plugin.Export.proxy_G.FrontLeft');\r\nL -= $prop('ShakeITBSV3Plugin.Export.proxy_G.RearLeft');\r\n// d, L range -100 to 100; max magnitude 100*sqrt(2)\r\n// no load shift for 0 acceleration; each corner gets 0.25 G\r\nvar L = 25 + 25 * L / 100;\t// left-right distribution\r\nL += (L * d / 100);\t\t// distribute aft-fore\r\n// corner slip\r\nvar s = $prop('GameRawData.Physics.WheelSlip03');\r\n// condition slip\r\ns = 20 * Math.log(1 + s) - 5;\r\n// weight slip by load\r\nreturn s *  L / 100; "
+              },
+              "RearRightFormula": {
+                "Interpreter": 1,
+                "Expression": "// acceleration @ right rear\r\nvar d = - $prop('ShakeITBSV3Plugin.Export.proxy_G.FrontRight');\r\nd += $prop('ShakeITBSV3Plugin.Export.proxy_G.RearRight');\r\n// right load (turning left)\r\nvar L = - $prop('ShakeITBSV3Plugin.Export.proxy_G.FrontLeft');\r\nL += $prop('ShakeITBSV3Plugin.Export.proxy_G.RearLeft');\r\n// d, L range -100 to 100; max magnitude 100*sqrt(2)\r\n// if no accelerations, then no shift and each corner gets 0.25 G\r\nL = 25 + 25 * L / 100;\t\t// distribute load rith - left\r\nL += (L * d / 100);\t\t\t// distribute load aft - fore\r\n// corner slip\r\ns = $prop('GameRawData.Physics.WheelSlip04');\r\n// condition slip\r\ns = 20 * Math.log(1 + s) - 5;\r\n// weight slip by load (abs max 100);\r\nreturn s * L / 100;"
+              },
+              "ContainerId": "1c35b0a7-8626-46c0-a428-2369d26184d4",
+              "ContainerType": "CustomEffectContainer",
+              "Description": "4 - GAIN 430 (BKC & Q10B)",
+              "AggregationMode": "Front/Rear",
+              "Gain": 100.0,
+              "IsEnabled": true,
+              "Output": {
+                "UsePrehemptiveMode": false,
+                "Frequency": 35,
+                "UseHighFrequency": true,
+                "HighFrequency": 25,
+                "WhiteNoise": 54,
+                "UseWhiteNoise": false,
+                "EnableDurationModulation": true,
+                "DurationModulationValue": 34,
+                "FrequencyBasedOnPreFilter": false,
+                "Harmonics": 0,
+                "HoldMode": 1,
+                "DelayEnabled": false,
+                "AssignToChannelGroup": true,
+                "ChannelGroupName": "LOAD-4 (LB)",
+                "PropertyName": null,
+                "ExportProperty": false,
+                "DisableOutput": false,
+                "OutputType": "ToneOutput"
+              }
+            },
+            {
+              "AutocalibrationMax": 95.0,
+              "Filter": {
+                "GammaValue": 1.0,
+                "InputGain": 475.0,
+                "MinimumForce": 1,
+                "Threshold": 8,
+                "FilterType": "GammaFilter"
+              },
+              "FrontLeftFormula": {
+                "Interpreter": 1,
+                "Expression": "// left front loaded slip\r\nvar d = $prop('ShakeITBSV3Plugin.Export.proxy_G.FrontRight');\r\nd -= $prop('ShakeITBSV3Plugin.Export.proxy_G.RearRight');\r\n// left load (turning right)\r\nvar L = $prop('ShakeITBSV3Plugin.Export.proxy_G.FrontLeft');\r\nL -= $prop('ShakeITBSV3Plugin.Export.proxy_G.RearLeft');\r\n// d, L range -100 to 100; max magnitude 100*sqrt(2)\r\n// if G are 0, then no load shift and each corner gets 0.25 G\r\nL = 25 + 25 * L / 100;\t// left-right load distribution\r\nL += (L * d / 100);\t\t// fore-aft load distribution\r\n// corner slip\r\ns = $prop('GameRawData.Physics.WheelSlip01');\r\n// condition slip\r\ns = 20 * Math.log(1 + s) - 5;\r\n// weight slip by load\r\nreturn s *  L / 100; \r\n\r\n"
+              },
+              "FrontRightFormula": {
+                "Interpreter": 1,
+                "Expression": "// deceleration @ front right\r\nvar d = $prop('ShakeITBSV3Plugin.Export.proxy_G.FrontRight');\r\nd -= $prop('ShakeITBSV3Plugin.Export.proxy_G.RearRight');\r\n// right force (turning left)\r\nvar L = - $prop('ShakeITBSV3Plugin.Export.proxy_G.FrontLeft');\r\nL += $prop('ShakeITBSV3Plugin.Export.proxy_G.RearLeft');\r\n// d, L range -100 to 100; max magnitude 100*sqrt(2)\r\n// for 0 acceleeration, no shift and each corner gets 0.25 G\r\nL = 25 + 25 * L / 100;\t// distribute right - left\r\nL += (L * d / 100);\t\t\t// distribute fore - aft\r\n// slip\r\ns = $prop('GameRawData.Physics.WheelSlip02');\r\n// condition slip\r\ns = 20 * Math.log(1 + s) - 5;\r\n// weight slip by load (abs max 100);\r\nreturn s * L / 100;"
+              },
+              "RearLeftFormula": {
+                "Interpreter": 1,
+                "Expression": "// acceleration @ left rear\r\nvar d = - $prop('ShakeITBSV3Plugin.Export.proxy_G.FrontRight');\r\nd += $prop('ShakeITBSV3Plugin.Export.proxy_G.RearRight');\r\n// left force (turning right)\r\nvar L = $prop('ShakeITBSV3Plugin.Export.proxy_G.FrontLeft');\r\nL -= $prop('ShakeITBSV3Plugin.Export.proxy_G.RearLeft');\r\n// d, L range -100 to 100; max magnitude 100*sqrt(2)\r\n// no load shift for 0 acceleration; each corner gets 0.25 G\r\nvar L = 25 + 25 * L / 100;\t// left-right distribution\r\nL += (L * d / 100);\t\t// distribute aft-fore\r\n// corner slip\r\nvar s = $prop('GameRawData.Physics.WheelSlip03');\r\n// condition slip\r\ns = 20 * Math.log(1 + s) - 5;\r\n// weight slip by load\r\nreturn s *  L / 100; "
+              },
+              "RearRightFormula": {
+                "Interpreter": 1,
+                "Expression": "// acceleration @ right rear\r\nvar d = - $prop('ShakeITBSV3Plugin.Export.proxy_G.FrontRight');\r\nd += $prop('ShakeITBSV3Plugin.Export.proxy_G.RearRight');\r\n// right load (turning left)\r\nvar L = - $prop('ShakeITBSV3Plugin.Export.proxy_G.FrontLeft');\r\nL += $prop('ShakeITBSV3Plugin.Export.proxy_G.RearLeft');\r\n// d, L range -100 to 100; max magnitude 100*sqrt(2)\r\n// if no accelerations, then no shift and each corner gets 0.25 G\r\nL = 25 + 25 * L / 100;\t\t// distribute load rith - left\r\nL += (L * d / 100);\t\t\t// distribute load aft - fore\r\n// corner slip\r\ns = $prop('GameRawData.Physics.WheelSlip04');\r\n// condition slip\r\ns = 20 * Math.log(1 + s) - 5;\r\n// weight slip by load (abs max 100);\r\nreturn s * L / 100;"
+              },
+              "ContainerId": "65016da6-61d4-4744-be2f-cee583e9f1ea",
+              "ContainerType": "CustomEffectContainer",
+              "Description": "5 - GAIN 475 (BKC & Q10B)",
+              "AggregationMode": "Front/Rear",
+              "Gain": 100.0,
+              "IsEnabled": true,
+              "Output": {
+                "UsePrehemptiveMode": false,
+                "Frequency": 6,
+                "UseHighFrequency": true,
+                "HighFrequency": 9,
+                "WhiteNoise": 54,
+                "UseWhiteNoise": false,
+                "EnableDurationModulation": true,
+                "DurationModulationValue": 34,
+                "FrequencyBasedOnPreFilter": false,
+                "Harmonics": 0,
+                "HoldMode": 1,
+                "DelayEnabled": false,
+                "AssignToChannelGroup": true,
+                "ChannelGroupName": "LOAD-5 (LB)",
+                "PropertyName": null,
+                "ExportProperty": false,
+                "DisableOutput": false,
+                "OutputType": "ToneOutput"
+              }
+            },
+            {
+              "AutocalibrationMax": 95.0,
+              "Filter": {
+                "GammaValue": 1.0,
+                "InputGain": 500.0,
+                "MinimumForce": 0,
+                "Threshold": 9,
+                "FilterType": "GammaFilter"
+              },
+              "FrontLeftFormula": {
+                "Interpreter": 1,
+                "Expression": "// left front loaded slip\r\nvar d = $prop('ShakeITBSV3Plugin.Export.proxy_G.FrontRight');\r\nd -= $prop('ShakeITBSV3Plugin.Export.proxy_G.RearRight');\r\n// left load (turning right)\r\nvar L = $prop('ShakeITBSV3Plugin.Export.proxy_G.FrontLeft');\r\nL -= $prop('ShakeITBSV3Plugin.Export.proxy_G.RearLeft');\r\n// d, L range -100 to 100; max magnitude 100*sqrt(2)\r\n// if G are 0, then no load shift and each corner gets 0.25 G\r\nL = 25 + 25 * L / 100;\t// left-right load distribution\r\nL += (L * d / 100);\t\t// fore-aft load distribution\r\n// corner slip\r\ns = $prop('GameRawData.Physics.WheelSlip01');\r\n// condition slip\r\ns = 20 * Math.log(1 + s) - 5;\r\n// weight slip by load\r\nreturn s *  L / 100; \r\n\r\n"
+              },
+              "FrontRightFormula": {
+                "Interpreter": 1,
+                "Expression": "// deceleration @ front right\r\nvar d = $prop('ShakeITBSV3Plugin.Export.proxy_G.FrontRight');\r\nd -= $prop('ShakeITBSV3Plugin.Export.proxy_G.RearRight');\r\n// right force (turning left)\r\nvar L = - $prop('ShakeITBSV3Plugin.Export.proxy_G.FrontLeft');\r\nL += $prop('ShakeITBSV3Plugin.Export.proxy_G.RearLeft');\r\n// d, L range -100 to 100; max magnitude 100*sqrt(2)\r\n// for 0 acceleeration, no shift and each corner gets 0.25 G\r\nL = 25 + 25 * L / 100;\t// distribute right - left\r\nL += (L * d / 100);\t\t\t// distribute fore - aft\r\n// slip\r\ns = $prop('GameRawData.Physics.WheelSlip02');\r\n// condition slip\r\ns = 20 * Math.log(1 + s) - 5;\r\n// weight slip by load (abs max 100);\r\nreturn s * L / 100;"
+              },
+              "RearLeftFormula": {
+                "Interpreter": 1,
+                "Expression": "// acceleration @ left rear\r\nvar d = - $prop('ShakeITBSV3Plugin.Export.proxy_G.FrontRight');\r\nd += $prop('ShakeITBSV3Plugin.Export.proxy_G.RearRight');\r\n// left force (turning right)\r\nvar L = $prop('ShakeITBSV3Plugin.Export.proxy_G.FrontLeft');\r\nL -= $prop('ShakeITBSV3Plugin.Export.proxy_G.RearLeft');\r\n// d, L range -100 to 100; max magnitude 100*sqrt(2)\r\n// no load shift for 0 acceleration; each corner gets 0.25 G\r\nvar L = 25 + 25 * L / 100;\t// left-right distribution\r\nL += (L * d / 100);\t\t// distribute aft-fore\r\n// corner slip\r\nvar s = $prop('GameRawData.Physics.WheelSlip03');\r\n// condition slip\r\ns = 20 * Math.log(1 + s) - 5;\r\n// weight slip by load\r\nreturn s *  L / 100; "
+              },
+              "RearRightFormula": {
+                "Interpreter": 1,
+                "Expression": "// acceleration @ right rear\r\nvar d = - $prop('ShakeITBSV3Plugin.Export.proxy_G.FrontRight');\r\nd += $prop('ShakeITBSV3Plugin.Export.proxy_G.RearRight');\r\n// right load (turning left)\r\nvar L = - $prop('ShakeITBSV3Plugin.Export.proxy_G.FrontLeft');\r\nL += $prop('ShakeITBSV3Plugin.Export.proxy_G.RearLeft');\r\n// d, L range -100 to 100; max magnitude 100*sqrt(2)\r\n// if no accelerations, then no shift and each corner gets 0.25 G\r\nL = 25 + 25 * L / 100;\t\t// distribute load rith - left\r\nL += (L * d / 100);\t\t\t// distribute load aft - fore\r\n// corner slip\r\ns = $prop('GameRawData.Physics.WheelSlip04');\r\n// condition slip\r\ns = 20 * Math.log(1 + s) - 5;\r\n// weight slip by load (abs max 100);\r\nreturn s * L / 100;"
+              },
+              "ContainerId": "340c3e00-0f59-4d26-9687-b2bb5ff1f95f",
+              "ContainerType": "CustomEffectContainer",
+              "Description": "6 - GAIN 500 (BKC & Q10B)",
+              "AggregationMode": "Front/Rear",
+              "Gain": 100.0,
+              "IsEnabled": true,
+              "Output": {
+                "UsePrehemptiveMode": false,
+                "Frequency": 4,
+                "UseHighFrequency": true,
+                "HighFrequency": 5,
+                "WhiteNoise": 54,
+                "UseWhiteNoise": false,
+                "EnableDurationModulation": true,
+                "DurationModulationValue": 34,
+                "FrequencyBasedOnPreFilter": false,
+                "Harmonics": 0,
+                "HoldMode": 1,
+                "DelayEnabled": false,
+                "AssignToChannelGroup": true,
+                "ChannelGroupName": "LOAD-6 (LB)",
+                "PropertyName": null,
+                "ExportProperty": false,
+                "DisableOutput": false,
+                "OutputType": "ToneOutput"
+              }
+            }
+          ],
+          "Filter": null,
+          "ContainerId": "c7777194-fb42-4556-988f-0f07813666e9",
+          "ContainerType": "GroupContainer",
+          "Description": "Low Bass Layers (BKC & Q10B)",
+          "AggregationMode": null,
+          "Gain": 100.0,
+          "IsEnabled": true,
+          "Output": null
+        }
+      ],
+      "Filter": null,
+      "ContainerId": "3687833c-4ff2-483b-980d-95c8ade71d1c",
+      "ContainerType": "GroupContainer",
+      "Description": "LOAD & SLIP",
+      "AggregationMode": null,
+      "Gain": 100.0,
+      "IsEnabled": true,
+      "Output": null
+    }
+  ],
+  "AutoCalibrationRatio2": 0,
+  "GameCode": "AssettoCorsaCompetizione",
+  "LastLoaded": "2021-08-24T08:10:04.2296241+10:00",
+  "Name": "AMS 2 dMASS",
+  "ProfileId": "4b9013fa-b4b8-41f4-a2af-74cb51a24fea",
+  "OutputMode": 1,
+  "GlobalGain": 35.777777777777828,
+  "UseProfileGain": true
+}
