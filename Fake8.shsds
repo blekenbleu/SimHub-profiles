@@ -3,76 +3,88 @@
   "SerialPortName": "COM8",
   "StartupDelayMs": 0,
   "IsConnecting": false,
-  "IsEnabled": false,
+  "IsEnabled": true,
   "LogIncomingData": true,
-  "IsConnected": false,
+  "IsConnected": true,
   "BaudRate": 115200,
   "UpdateMessages": [
     {
       "Message": {
-        "Interpreter": 1,
-        "Expression": "// special: 0 = silent; 1 = clip(*); 3 = hex; 4 = ASCII; 5 = LUT\r\nreturn String.fromCharCode(0x5F, 0x3F & $prop('Settings.info'));"
+        "Expression": "if(changed(20,[Settings.f0]) && [Settings.enable],replace('f0=foo;','foo',[Settings.f0]),'')"
       },
-      "IsEnabled": true,
-      "MaximumFrequency": 0
-    },
-    {
-      "Message": {
-        "Interpreter": 1,
-        "Expression": "// servo positions from properties; parms from settings\r\nvar np = $prop('Settings.np');       // PWM count\r\nvar pg = $prop('Settings.page') - 2; // zero - based: 0==min; 1==max; 2==neut\r\nvar wysiwyg = $prop('Settings.wysiwyg') && 0 <= pg;\r\nvar t5=[[0],[0],[0],[0],[0]];        // slider settings\r\nvar ss = [1 - $prop('Settings.smooth0') * .2,\r\n          1 - $prop('Settings.smooth1') * .2,\r\n          1 - $prop('Settings.smooth2') * .2];\r\nvar i;\r\n\r\nfunction t5load() {\r\n  for (i = 0; i < np; i++) {\r\n    // pg 0   sketch sets min pulse width based on t5[0] with range of 126\r\n    t5[0][i] = Math.round(2.1 * $prop('Settings.min'+i)); // min <= 60\r\n    // pg 1   sketch sets max pulse width based on t5[1] with range of 126\r\n    t5[1][i] = Math.round(1.26 * $prop('Settings.max'+i));\r\n    var m = $prop('Settings.neu'+i);\r\n    t5[2][i] = Math.round(m * t5[1][i] * .01);     // pg 2  neut % of max\r\n    t5[3][i] = $prop('Settings.sca'+i) * .02;      // pg 3  50 == unity gain - unused\r\n  }\r\n  t5[4][0] = t5[4][1] = ss[0];                     // assign smoothing per channel\r\n  t5[4][2] = t5[4][3] = ss[1];\r\n  for ( i = 4; i < np; i++)\r\n    t5[4][i] = ss[2];\r\n}\r\n\r\n/* other (unused here) settings:\r\n   $prop('Settings.nf')                // PWM fan count\r\n */\r\n\r\nif (null == root['t5']) {              // device connect message initialized 2 Arduino LUTs\r\n  var ft = [0];                        // Set up data and reset IIR filters\r\n\r\n  for (i = 0; i < np; i++)\r\n     ft[i] = 0;\r\n  root['ft'] = ft;                     // IIR\r\n  root['swft'] = 0;                    // sway IIR\r\n  t5load();\r\n  root['t5'] = t5;\r\n}\r\nelse if (wysiwyg)\r\n  t5load();\r\nelse t5 = root['t5'];\r\n//return root['ft'].toString()\r\n\r\nvar st = '';                                        // tension string:  watch this space\r\nvar d;\r\n\r\nif (wysiwyg) {                                      // changes enabled?\r\n  var tr = root['t5'];\r\n  var change = false;                               // Only one page at a time\r\n\r\n  for (i = 0; i < np; i++)\r\n    if (tr[pg][i] != t5[pg][i]) {\r\n      change = true;\r\n      break;\r\n    }\r\n//change = true;\r\n  if (change) {\r\n    if (2 > pg) {                               // Arduino table change?  update table, then tension\r\n      if (0 == pg)                            // min: update both min and max\r\n        st = String.fromCharCode(0x5F,5,np)+String.fromCharCode.apply(null,t5[0]);  // min LUT\r\n      st +=  String.fromCharCode(0x5F,6,np)+String.fromCharCode.apply(null,t5[1]);  // max LUT\r\n    }\r\n    root['t5'][pg] = t5[pg];                    // no change left unsaved!!\r\n  }\r\n  if (0 == pg)                                  // min?\r\n    for (i = 0; i < np; i++)\r\n      st += String.fromCharCode(0x40 + i, 0);\r\n  else if (3 > pg) {\r\n    d = (2 == pg) ? t5[2] : t5[1];                     // neut or max\r\n    for (i = 0; i < np; i++)\r\n      st += String.fromCharCode(0x40 + i | (0x40 & d[i])>>1, 0x3F & d[i]);\r\n  }\r\n  return st;            // ignore telemetry during wysiwyg\r\n/*\r\n  if (0 < st.length) {\r\n    var s = ' 0x'+(st.charCodeAt(0)).toString(16);\r\n    for(i = 1; i < st.length; i++)\r\n      s += ',0x'+(st.charCodeAt(i)).toString(16);\r\n    return s;\r\n  } // else return 'zero length\\n';\r\n */\r\n}\r\n\r\n\r\nvar gain = $prop('Settings.gain_global') * 0.04;\r\n\r\n// G-forces from SimHub ShakeIt properties ---------------\r\n// longitudinal acceleration (positive is Rear)\r\nvar surge = [0];\r\nfor (i = 0; i < np; i++)\r\n  surge[i] = ($prop('ShakeITBSV3Plugin.Export.blek2decel.Front')\r\n           - Math.min(1, .02 * t5[2][i] * $prop('ShakeITBSV3Plugin.Export.blek2accel.Rear'))) * gain; \r\n//return surge\r\n\r\n// lateral acceleration (positive is right) (feels like yaw)\r\nvar sway  = 2 * ($prop('ShakeITBSV3Plugin.Export.blek2sway.All') - 50) * gain;\r\n\r\n// vertical acceleration (positive is up)\r\nvar heave = ($prop('ShakeITBSV3Plugin.Export.blek2heave.Front')\r\n           - $prop('ShakeITBSV3Plugin.Export.blek2heave.Rear')) * gain;\r\n\r\n\r\n// Combined forces ------------------------------\r\nvar rSurgeSway = -surge[3] * 1.2 + Math.abs(sway) * 0.5;\r\n//var heaveSurge =  heave * 0.7 - surge[5] * 0.3;\r\n//var surgeSway  =  surge[6] * 0.7 + Math.abs(sway) * 0.3;\r\n//var surgeHeave =  surge[7] * 0.7 + Math.abs(heave) * 0.3;\r\n//var swayHeave  =  sway * 0.7 + heave * 0.3;\r\n//var rSwayHeave = -sway * 0.7 + heave * 0.3;\r\n//var swayRSurge =  sway * 0.7 - surge[10] * 0.3;\r\n//var rSwayRSurge = -sway * 0.7 - surge[11] * 0.3;\r\n\r\n\r\n// convert speed and yaw changes to left and right tension values\r\nvar leftSurgeSway;\r\nvar rightSurgeSway;\r\nif (surge[0] < 0) {  // tension reductions during acceleration\r\n  // acceleration decreases harness tensions\r\n  var s = sway*sway - surge[0]*surge[0];\r\n  leftSurgeSway = Math.sqrt(Math.abs(s));\r\n  if (s < 0)\r\n    leftSurgeSway = - leftSurgeSway;\r\n  if (0 < sway) {\r\n    rightSurgeSway = leftSurgeSway;\r\n    leftSurgeSway = surge[0];\r\n  }\r\n  else rightSurgeSway = surge[1];\r\n}\r\nelse {\r\n  leftSurgeSway = Math.sqrt(surge[0]*surge[0] + sway*sway);\r\n  rightSurgeSway = surge[1] + surge[1] - leftSurgeSway;\r\n  if (0 < sway) {\r\n    var s = leftSurgeSway;\r\n    leftSurgeSway = rightSurgeSway;\r\n    rightSurgeSway = s;\r\n  }\r\n}\r\n//return t5[2].toString();\r\n//return format(surge[0],'0.00') + ' ' + format(sway, '0.00') + ' ' + format(t5[2][0] + leftSurgeSway,'0.00') + ' ' + format(t5[2][1] + rightSurgeSway,'0.00') + '\\n';\r\n//return leftSurgeSway + '  ' + rightSurgeSway + '  ' + surge[0]\r\n\r\n\r\n/** Assign forces to servos -----------\r\n\r\nleftSurgeSway     // left shoulder belt\r\nrightSurgeSway    // right shoulder belt\r\nsurgeSway         // mono shoulder belt\r\n-surge[8]         // middle upper back\r\nsurge[2]          // both side lower back\r\nrSurgeSway        // both side upper back\r\nrightSurgeSway    // left side lower back (swapped compared to belts)\r\nleftSurgeSway     // right side lower back (\"\")\r\nswayRSurge        // left side upper back\r\nrSwayRSurge       // right side upper back\r\nswayHeave         // left seat\r\nrSwayHeave        // right seat\r\nheaveSurge        // center/back seat\r\n-surge[9]*0.4     // lap belt\r\nsway*0.1          // head cushion sway\r\n\r\n*/\r\nvar ts = [];\r\nts[0] = leftSurgeSway;\r\nts[1] = rightSurgeSway;\r\nts[2] = surge[2];\r\nts[3] = rSurgeSway;\r\nts[4] = 0;//sway;\r\nts[5] = 0;\r\nts[6] = 0;\r\nts[7] = 0;\r\nts[8] = 0;\r\nts[9] = 0;\r\nts[10] = 0;\r\nts[11] = 0;\r\nts[12] = 0;\r\nts[13] = 0;\r\nts[14] = 0;\r\n\r\nif (5 == $prop('Settings.info')) {    // gnuplot format\r\n  st = format(surge[0],'0.00')+' '+format(sway,'0.00')+' '+format(heave,'0.00');\r\n  for (i = 0; i  < np; i++)\r\n    st += ' '+format(ts[i],'0.00');\r\n  return st+'\\n';\r\n}\r\n\r\nfor (i = 0; i < np; i++) {\r\n  var ft = root['ft'][i];                         // Low-pass IIR filter\r\n\r\n  ft += (ts[i] - ft) * t5[4][i];                        // filtered tension\r\n  root['ft'][i] = ft;\r\n//return [i,np,ft,Math.abs(ft-root['ft'][i]),e].toString();\r\n\r\n\r\n  ft = Math.round(t5[2][i] + t5[3][i] * ft);                  // scale and offset\r\n  if (0 > ft) ft = 0;                                         // below min\r\n  else if (ft > 126) ft = 126;                                // Arduino data limit\r\n  st += String.fromCharCode(0x40 | i | ((0x40 & ft)>>1));     // set tension msb\r\n  st += String.fromCharCode(0x3F & ft);                       // 6 lsb\r\n}\r\n\r\n//return st.length\r\nreturn st;\r\n/*\r\nif (0 < st.length) {\r\n  var s = ' 0x'+(st.charCodeAt(0)).toString(16);\r\n  for(i=1;i<st.length;i++)\r\n    s+=',0x'+(st.charCodeAt(i)).toString(16);\r\n  return s;\r\n}\r\n */"
-      },
-      "IsEnabled": true,
-      "MaximumFrequency": 0
-    },
-    {
-      "Message": {
-        "Expression": "if([Settings.enable],replace('f0=foo;','foo',[Settings.f0]),'')"
-      },
-      "IsEnabled": true,
+      "IsEnabled": false,
       "MaximumFrequency": 60
     },
     {
       "Message": {
-        "Expression": "if([Settings.enable],replace('f1=foo;','foo',[Settings.f1]),'')"
+        "Expression": "if(changed(20,[Settings.f1]) && [Settings.enable],replace('f1=foo;','foo',[Settings.f1]),'')"
       },
-      "IsEnabled": true,
+      "IsEnabled": false,
       "MaximumFrequency": 60
     },
     {
       "Message": {
-        "Expression": "if([Settings.enable],replace('f2=foo;','foo',[Settings.f2]),'')"
+        "Expression": "if(changed(20,[Settings.f2]) && [Settings.enable],replace('f2=foo;','foo',[Settings.f2]),'')"
       },
-      "IsEnabled": true,
+      "IsEnabled": false,
       "MaximumFrequency": 60
     },
     {
       "Message": {
-        "Expression": "if([Settings.enable],replace('f3=foo;','foo',[Settings.f3]),'')"
+        "Expression": "if(changed(20,[Settings.f3]) && [Settings.enable],replace('f3=foo;','foo',[Settings.f3]),'')"
       },
-      "IsEnabled": true,
+      "IsEnabled": false,
       "MaximumFrequency": 60
     },
     {
       "Message": {
-        "Expression": "if([Settings.enable],replace('f4=foo;','foo',[Settings.f4]),'')"
+        "Expression": "if(changed(20,[Settings.f4]) && [Settings.enable],replace('f4=foo;','foo',[Settings.f4]),'')"
       },
-      "IsEnabled": true,
+      "IsEnabled": false,
+      "MaximumFrequency": 60
+    },
+    {
+      "Message": {
+        "Expression": "if(changed(20,[Settings.period]) && [Settings.enable],replace('f5=foo;','foo',[Settings.period]),'')\r\n"
+      },
+      "IsEnabled": false,
+      "MaximumFrequency": 60
+    },
+    {
+      "Message": {
+        "Expression": "if(changed(20,[Settings.rise]) && [Settings.enable],replace('f6=foo;','foo',[Settings.rise]),'')"
+      },
+      "IsEnabled": false,
+      "MaximumFrequency": 60
+    },
+    {
+      "Message": {
+        "Expression": "if(changed(20,[Settings.hold]) && [Settings.enable],replace('f7=foo;','foo',[Settings.hold]),'')"
+      },
+      "IsEnabled": false,
+      "MaximumFrequency": 60
+    },
+    {
+      "Message": {
+        "Expression": "if(changed(20,[Settings.fall]) && [Settings.enable],replace('f8=foo;','foo',[Settings.fall]),'')"
+      },
+      "IsEnabled": false,
       "MaximumFrequency": 60
     }
   ],
   "OnConnectMessage": {
     "Interpreter": 1,
-    "Expression": ""
+    "Expression": "return \"f9=450;\"\t// jiggle the Arduino"
   },
   "OnDisconnectMessage": {
-    "Expression": "'f1=0;'"
+    "Expression": ""
   },
   "DtrEnable": true,
-  "RtsEnable": false,
+  "RtsEnable": true,
   "EditorExpanded": true,
   "Name": "Custom Serial device",
   "Description": "Fake8 using new2char for ShakeIt blek2char effect group telemetry",
-  "LastErrorDate": "2021-10-27T09:04:13.7083017-04:00",
+  "LastErrorDate": "2021-06-24T15:15:02.5154641-04:00",
   "LastErrorMessage": null,
   "IsFreezed": false,
   "SettingsBuilder": {
@@ -89,65 +101,14 @@
         "IsVisible": true,
         "Label": "Enable Fake8 sliders",
         "IsVisibleFormula": {
-          "Expression": "[Settings.page]>1"
+          "Expression": ""
         }
       },
       {
-        "Maximum": 25,
+        "Maximum": 40000,
         "Minimum": 1,
         "PropertyName": "f0",
-        "CurrentValue": 11,
-        "Name": null,
-        "TypeName": "SliderEntry",
-        "IsEnabled": true,
-        "IsEnabledFormula": {
-          "Expression": "[Settings.page]==2"
-        },
-        "IsVisible": true,
-        "Label": "Fake8.0 PWM frequency kHz",
-        "IsVisibleFormula": {
-          "Expression": "[Settings.page]==2 || (4 > [Settings.np] && 1 < [Settings.page])"
-        }
-      },
-      {
-        "Maximum": 127,
-        "Minimum": 0,
-        "PropertyName": "f1",
-        "CurrentValue": 30,
-        "Name": null,
-        "TypeName": "SliderEntry",
-        "IsEnabled": true,
-        "IsEnabledFormula": {
-          "Expression": "[Settings.page]==2"
-        },
-        "IsVisible": true,
-        "Label": "Fake8.1 max amplitude",
-        "IsVisibleFormula": {
-          "Expression": "[Settings.page]==2 || (4 > [Settings.np] && 1 < [Settings.page])"
-        }
-      },
-      {
-        "Maximum": 64,
-        "Minimum": 0,
-        "PropertyName": "f2",
-        "CurrentValue": 0,
-        "Name": null,
-        "TypeName": "SliderEntry",
-        "IsEnabled": true,
-        "IsEnabledFormula": {
-          "Expression": "[Settings.page]==2 && 2 < [Settings.np]"
-        },
-        "IsVisible": true,
-        "Label": "Fake8.2 Min amplitude: percent of max",
-        "IsVisibleFormula": {
-          "Expression": "2 < [Settings.np] && ([Settings.page]==2 || (4 > [Settings.np] && 1 < [Settings.page]))"
-        }
-      },
-      {
-        "Maximum": 64,
-        "Minimum": 0,
-        "PropertyName": "f3",
-        "CurrentValue": 34,
+        "CurrentValue": 40000,
         "Name": null,
         "TypeName": "SliderEntry",
         "IsEnabled": true,
@@ -155,15 +116,117 @@
           "Expression": ""
         },
         "IsVisible": true,
-        "Label": "Fake8.3 predistortion percent",
+        "Label": "Fake8.0 PWM period (usec / 50) (40000 = 2 seconds)",
         "IsVisibleFormula": {
-          "Expression": "[Settings.page]==2&&[Settings.np]>3"
+          "Expression": ""
+        }
+      },
+      {
+        "Maximum": 100,
+        "Minimum": 0,
+        "PropertyName": "f1",
+        "CurrentValue": 43,
+        "Name": null,
+        "TypeName": "SliderEntry",
+        "IsEnabled": true,
+        "IsEnabledFormula": {
+          "Expression": ""
+        },
+        "IsVisible": true,
+        "Label": "Fake8.1 max amplitude (PWM %)",
+        "IsVisibleFormula": {
+          "Expression": ""
+        }
+      },
+      {
+        "Maximum": 10,
+        "Minimum": 0,
+        "PropertyName": "f2",
+        "CurrentValue": 8,
+        "Name": null,
+        "TypeName": "SliderEntry",
+        "IsEnabled": true,
+        "IsEnabledFormula": {
+          "Expression": ""
+        },
+        "IsVisible": true,
+        "Label": "Fake8.2 Min amplitude: (PWM %)",
+        "IsVisibleFormula": {
+          "Expression": ""
+        }
+      },
+      {
+        "Maximum": 64,
+        "Minimum": 0,
+        "PropertyName": "f3",
+        "CurrentValue": 44,
+        "Name": null,
+        "TypeName": "SliderEntry",
+        "IsEnabled": true,
+        "IsEnabledFormula": {
+          "Expression": ""
+        },
+        "IsVisible": true,
+        "Label": "Fake8.3 predistortion amplitude (percent of PWM change)",
+        "IsVisibleFormula": {
+          "Expression": ""
         }
       },
       {
         "Maximum": 64,
         "Minimum": 0,
         "PropertyName": "f4",
+        "CurrentValue": 27,
+        "Name": null,
+        "TypeName": "SliderEntry",
+        "IsEnabled": true,
+        "IsEnabledFormula": {
+          "Expression": ""
+        },
+        "IsVisible": true,
+        "Label": "Fake8.4 predistortion time (PWM period count)",
+        "IsVisibleFormula": {
+          "Expression": ""
+        }
+      },
+      {
+        "Maximum": 600,
+        "Minimum": 60,
+        "PropertyName": "period",
+        "CurrentValue": 560,
+        "Name": null,
+        "TypeName": "SliderEntry",
+        "IsEnabled": true,
+        "IsEnabledFormula": {
+          "Expression": ""
+        },
+        "IsVisible": true,
+        "Label": "Fake8.5 Test period count: 60 = 1 second",
+        "IsVisibleFormula": {
+          "Expression": ""
+        }
+      },
+      {
+        "Maximum": 64,
+        "Minimum": 0,
+        "PropertyName": "rise",
+        "CurrentValue": 19,
+        "Name": null,
+        "TypeName": "SliderEntry",
+        "IsEnabled": true,
+        "IsEnabledFormula": {
+          "Expression": ""
+        },
+        "IsVisible": true,
+        "Label": "Fake8.6 Test rise count",
+        "IsVisibleFormula": {
+          "Expression": ""
+        }
+      },
+      {
+        "Maximum": 64,
+        "Minimum": 0,
+        "PropertyName": "hold",
         "CurrentValue": 35,
         "Name": null,
         "TypeName": "SliderEntry",
@@ -172,67 +235,16 @@
           "Expression": ""
         },
         "IsVisible": true,
-        "Label": "Fake8.4 predistortion cycles",
+        "Label": "Fake8.7 Test hold count",
         "IsVisibleFormula": {
-          "Expression": "[Settings.page]==2&&[Settings.np]>4"
-        }
-      },
-      {
-        "Maximum": 600,
-        "Minimum": 60,
-        "PropertyName": "period",
-        "CurrentValue": 138,
-        "Name": null,
-        "TypeName": "SliderEntry",
-        "IsEnabled": true,
-        "IsEnabledFormula": {
           "Expression": ""
-        },
-        "IsVisible": true,
-        "Label": "Test period count: 60 = 1 second",
-        "IsVisibleFormula": {
-          "Expression": "[Settings.page]==2&&[Settings.np]>5"
-        }
-      },
-      {
-        "Maximum": 64,
-        "Minimum": 0,
-        "PropertyName": "rise",
-        "CurrentValue": 0,
-        "Name": null,
-        "TypeName": "SliderEntry",
-        "IsEnabled": true,
-        "IsEnabledFormula": {
-          "Expression": ""
-        },
-        "IsVisible": true,
-        "Label": "Test rise count",
-        "IsVisibleFormula": {
-          "Expression": "[Settings.page]==2&&[Settings.np]>6"
-        }
-      },
-      {
-        "Maximum": 64,
-        "Minimum": 0,
-        "PropertyName": "hold",
-        "CurrentValue": 25,
-        "Name": null,
-        "TypeName": "SliderEntry",
-        "IsEnabled": true,
-        "IsEnabledFormula": {
-          "Expression": ""
-        },
-        "IsVisible": true,
-        "Label": "Test hold count",
-        "IsVisibleFormula": {
-          "Expression": "[Settings.page]==2&&[Settings.np]>7"
         }
       },
       {
         "Maximum": 64,
         "Minimum": 0,
         "PropertyName": "fall",
-        "CurrentValue": 0,
+        "CurrentValue": 6,
         "Name": null,
         "TypeName": "SliderEntry",
         "IsEnabled": true,
@@ -240,9 +252,9 @@
           "Expression": ""
         },
         "IsVisible": true,
-        "Label": "Test fall count",
+        "Label": "Fake8.8 Test fall count",
         "IsVisibleFormula": {
-          "Expression": "[Settings.page]==2&&[Settings.np]>8"
+          "Expression": ""
         }
       }
     ],
